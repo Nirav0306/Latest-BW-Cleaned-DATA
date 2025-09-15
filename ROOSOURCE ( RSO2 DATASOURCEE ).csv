@@ -1,0 +1,704 @@
+OLTP Datasource,Version,Datasource Type,Application Component,Delta,Real Time,EXMETHOD,Table For Extraction,Extractor Structure,Last Changed By ,Last Changed Date,Last Changed Time,TXTSH,TXTMD,TXTLG
+ZALT_DS_CO_CSTELM_INTEVAL,A,ATTR,BW,,,F2,ZZRAX_CSTELM_HIERINT,ZALT_CSTHIERINT,BEST,15.05.2025,02:29:42,Cost element,Cost element CPR interval,Cost element CPR interval
+ZN_GER_STORE,A,TRAN,0BW_DATASOURCES,,,V,ZNSTORE,ZOXA4H0123,BEST,16.04.2025,17:08:36,Store Data Of GER,Store Data Of GER,Store Data Of GER
+ZN_GER_SALES1,A,TRAN,0BW_DATASOURCES,,,V,ZNSALES2,ZOXA4H0127,BEST,16.04.2025,21:25:18,Sales Data Of GER,Sales Data Of GER,Sales Data Of GER
+ZN_GER_SALES,A,TRAN,0BW_DATASOURCES,,,V,ZNSALES,ZOXA4H0120,BEST,16.04.2025,17:05:07,Sales Data Of GER,Sales Data Of GER,Sales Data Of GER
+ZN_GER_SALE,A,TRAN,0BW_DATASOURCES,,,V,ZNSALE,ZOXA4H0128,BEST,25.04.2025,23:13:45,Sales Data Of GER,Sales Data Of GER,Sales Data Of GER
+ZN_GER_PRODUCT,A,TRAN,0BW_DATASOURCES,,,V,ZNPRODUCT,ZOXA4H0121,BEST,16.04.2025,17:06:56,Product Data Of GER,Product Data Of GER,Product Data Of GER
+ZN_GER_EXCHANGE1,A,TRAN,0BW_DATASOURCES,,,V,ZNEXCHANGE1,ZOXA4H0125,BEST,16.04.2025,19:48:42,Exchange Rate Data,Exchange Rate Data of GER,Exchange Rate Data of GER
+ZN_GER_EXCHANGE,A,TRAN,0BW_DATASOURCES,,,V,ZNEXCHANGE,ZOXA4H0124,BEST,16.04.2025,17:10:14,Exchange Rate Data,Exchange Rate Data of GER,Exchange Rate Data of GER
+ZN_GER_CUSTOMER,A,TRAN,0BW_DATASOURCES,,,V,ZNCUSTOMER,ZOXA4H0122,BEST,16.04.2025,17:07:56,Customer Data Of GER,Customer Data Of GER,Customer Data Of GER
+ZDEMODS2,A,TRAN,BW,,,V,ZDEMOVIEW,ZOXA4H0134,BEST,23.06.2025,22:07:13,DB view,data ase view,database view ofor light
+ZDEMODS3,A,TRAN,BW,,,V,ZDEMOVIEW,ZOXA4H0135,BEST,23.06.2025,22:18:57,DB vIew,DataBase view,db vview fo fliht
+YTABLE1_DS,A,ATTR,BW,,,V,YTABLE1,ZOXA4H0130,BEST,15.06.2025,21:58:06,YTABLE1_DS,YTABLE1_DS,YTABLE1_DS
+0RT_RMCNDTA_TEXT,A,TEXT,IS-R,,,V,WRMA_T685T,ROXBC50116,BEST,20.03.2025,16:07:44,Text RMA Cond. Type,Text for RMA Condition Type,Text for RMA Condition Type
+0RT_RMCNDTA_TEXT,D,TEXT,IS-R,,,V,WRMA_T685T,ROXBC50116,SAP,16.02.2001,13:24:40,Text RMA Cond. Type,Text for RMA Condition Type,Text for RMA Condition Type
+0RT_RMA_02,D,TRAN,IS-R,NEWE,,F1,WRMA_RUN_EVALUATION,WRMA_S_EXTRACT_DATA,SAP,23.02.2011,11:13:36,RMA Costing,RMA Costing,RMA Costing
+0RT_RMA_03,A,TRAN,IS-R,NEWE,,F1,WRMA_RAW_DATA_EXTRACT,WRMA_S_RAW_DATA_RC,BEST,20.03.2025,16:27:54,RMA: Raw Data RC,RMA: Raw Data Extraction for Recasting,RMA: Raw Data Extraction for Recasting
+0RT_RMA_03,D,TRAN,IS-R,NEWE,,F1,WRMA_RAW_DATA_EXTRACT,WRMA_S_RAW_DATA_RC,SAP,23.02.2011,11:13:58,RMA: Raw Data RC,RMA: Raw Data Extraction for Recasting,RMA: Raw Data Extraction for Recasting
+0RT_RMA_10,D,ATTR,IS-R-IO,NEWE,,F1,WRMA_OBJECT_EXTRACT,WRMA_S_RCLAS,SAP,14.09.2011,09:43:34,Reclassifications,RMA Reclassifications,RMA Reclassifications
+0RT_RMAAPPL_TEXT,D,TEXT,IS-R,,,D,WRMA_KAPPL,ROTEXTSTR1,SAP,16.02.2001,13:26:09,Text for Application,Text for Application,Text for Application
+0RT_RMA_11,A,TRAN,IS-R,,,F1,WRMA_HIERARCHY_SNAPSHOT,WRMA_S_HIERARCHY_SNAPSHOT,BEST,20.03.2025,16:08:41,RMA Object Hierarchy,RMA Object Hierarchy Snapshot,RMA Object Hierarchy Snapshot
+0RT_RMA_11,D,TRAN,IS-R,,,F1,WRMA_HIERARCHY_SNAPSHOT,WRMA_S_HIERARCHY_SNAPSHOT,SAP,27.08.2009,15:14:41,RMA Object Hierarchy,RMA Object Hierarchy Snapshot,RMA Object Hierarchy Snapshot
+0WS_APPL_TEXT,D,TEXT,0CA_SUR-IO,,,V,V_UWS_BW_APPLT,V_UWS_BW_APPLT,SAP,08.03.2002,16:12:35,Applications,Applications,Web Survey: Applications
+0IQM_BI_PROC_DTP,D,ATTR,0VERIFICATION,NEWE,X,V,V_RSTCOIQMBIPROC,RSIQMX_DTP,SAP,18.07.2012,14:00:59,IQM Process from DTP,IQM Process from DTP with Error Log,Process from DTP with Error Log (Information Quality)
+0SR_COMID_B,D,ATTR,0GLSPEND,,,V,V_RSSOURSYSTEM1,RSSOURSYSTEM,SAP,12.03.2002,16:28:37,CommID,CommID - Master Data,Communication ID - Master Data
+0CMSTRAT_TEXT,D,TEXT,IS-R-IO,,,V,V_CMSTRATT_BW,ROXCR30110,SAP,27.09.2001,15:12:24,Strategy,Strategy,Strategy
+0CMSKU_ATTR,D,ATTR,IS-R-IO,,,V,V_CMSKU_BW,ROXCR30107,SAP,27.09.2001,08:36:40,SKU,SKU,SKU
+0CMROLE_TEXT,D,TEXT,IS-R-IO,,,V,V_CMROLET_BW,ROXCR30109,SAP,27.09.2001,15:10:58,Role,Role,Role
+0CMHIER_TEXT,D,TEXT,IS-R-IO,,,V,V_CMHIERT_BW,ROXBC50155,SAP,11.04.2002,10:39:27,CDT Hierarchy,CDT Hierarchy,CDT Hierarchy
+0CMHIER_ATTR,D,ATTR,IS-R-IO,,,V,V_CMHIER_BW,ROXBC50154,SAP,12.07.2001,10:49:29,CDT Hierarchy,CDT Hierarchy,CDT Hierarchy
+0CMCDT7_TEXT,D,TEXT,IS-R-IO,,,V,V_CMCDT7T_BW,ROXBC50137,SAP,05.02.2004,12:52:29,Brand,Brand,Brand
+0CMCDT7_ATTR,A,ATTR,IS-R-IO,,,V,V_CMCDT7_BW,ROXBC50130,BEST,20.03.2025,16:10:55,Brand,Brand,Brand
+0CMCDT7_ATTR,D,ATTR,IS-R-IO,,,V,V_CMCDT7_BW,ROXBC50130,SAP,05.02.2004,12:50:43,Brand,Brand,Brand
+0CMCDT6_TEXT,D,TEXT,IS-R-IO,,,V,V_CMCDT6T_BW,ROXBC50136,SAP,05.02.2004,12:52:20,Product Group,Product Group,Product Group
+0CMCDT6_ATTR,D,ATTR,IS-R-IO,,,V,V_CMCDT6_BW,ROXBC50129,SAP,05.02.2004,12:48:55,Product Group,Product Group,Product Group
+0CMCDT5_TEXT,D,TEXT,IS-R-IO,,,V,V_CMCDT5T_BW,ROXBC50135,SAP,05.02.2004,12:52:11,Sub-Subsegment,Sub-Subsegment,Sub-Subsegment
+0CMCDT5_ATTR,D,ATTR,IS-R-IO,,,V,V_CMCDT5_BW,ROXBC50151,SAP,05.02.2004,12:48:44,Sub-Subsegment,Sub-Subsegment,Sub-Subsegment
+0CMCDT4_TEXT,D,TEXT,IS-R-IO,,,V,V_CMCDT4T_BW,ROXBC50134,SAP,05.02.2004,12:52:02,Subsegment,Subsegment,Subsegment
+0CMCDT4_ATTR,D,ATTR,IS-R-IO,,,V,V_CMCDT4_BW,ROXBC50124,SAP,05.02.2004,12:48:25,Subsegment,Subsegment,Subsegment
+0CMCDT3_TEXT,D,TEXT,IS-R-IO,,,V,V_CMCDT3T_BW,ROXBC50133,SAP,05.02.2004,12:51:53,Segment,Segment,Segment
+0CMCDT3_ATTR,D,ATTR,IS-R-IO,,,V,V_CMCDT3_BW,ROXBC50123,SAP,05.02.2004,12:47:59,Segment,Segment,Segment
+0CMCDT2_TEXT,D,TEXT,IS-R-IO,,,V,V_CMCDT2T_BW,ROXBC50132,SAP,05.02.2004,12:51:41,Subcategory,Subcategory,Subcategory
+0CMCDT2_ATTR,D,ATTR,IS-R-IO,,,V,V_CMCDT2_BW,ROXBC50122,SAP,05.02.2004,12:47:41,Subcategory,Subcategory,Subcategory
+0CMCDT1_TEXT,A,TEXT,IS-R-IO,,,V,V_CMCDT1T_BW,ROXBC50131,BEST,20.03.2025,15:59:44,Category,Category,Category
+0CMCDT1_TEXT,D,TEXT,IS-R-IO,,,V,V_CMCDT1T_BW,ROXBC50131,SAP,05.02.2004,12:51:00,Category,Category,Category
+0CMCDT1_ATTR,A,ATTR,IS-R-IO,,,V,V_CMCDT1_BW,ROXBC50152,BEST,20.03.2025,16:23:45,Category,Category,Category
+0CMCDT1_ATTR,D,ATTR,IS-R-IO,,,V,V_CMCDT1_BW,ROXBC50152,SAP,05.02.2004,12:47:22,Category,Category,Category
+0BP_ROLES_ATTR,D,ATTR,0CA_BP-IO,AIM,,V,V_BUT100_BW,BUS100_BW,SAP,01.02.2005,08:22:18,SAP BP: Roles,SAP BP: Partner Roles,SAP BP: Partner Roles
+0BP_IND_SECTOR_ATTR,D,ATTR,0CA_BP-IO,AIM,,V,V_BUT0IS_BW,BUS0IS_BW,SAP,01.02.2005,08:21:47,BP: Industry (Def.),BP: Industry (Default Value),BP: Industry (Default Value)
+0BP_IS_ATTR,D,ATTR,0CA_BP-IO,AIM,,V,V_BUT0IS_ALL_BW,BUS0IS_BW,SAP,01.02.2005,08:21:39,BP: Industries,BP: Industries of Business Partner,BP: Industries of Business Partner
+0BP_ID_ATTR,D,ATTR,0CA_BP-IO,AIM,,V,V_BUT0ID_BW,BUS0ID_BW,SAP,01.02.2005,08:21:24,BP: ID Numbers,BP: Identification Numbers,Business Partners: Identification Numbers
+0BP_BANK_ATTR,D,ATTR,0CA_BP-IO,AIM,,V,V_BUT0BK_BW,BUS0BK_BW,SAP,01.02.2005,08:20:52,SAP BP: Bank Data,SAP BP: BW Extraction Bank Data,SAP BP: BW Extraction Bank Data
+0BP_GRP_TEXT,D,TEXT,0CA_BP-IO,A,,V,V_BUT_HIER_NT_BW,BUS_HIER_NT_BW,SAP,25.09.2003,17:03:26,BP:Group (Hierarchy),BP: Group from Hierarchy,BP: Business Partner Group from Hierarchy
+0BP_GRP_ATTR,D,ATTR,0CA_BP-IO,A,,V,V_BUT_HIER_ND_BW,BUS_HIER_ND_BW,SAP,25.09.2003,17:04:20,BP:Group (Hierarchy),BP: Group from Hierarchy,BP: Business Partner Group from Hierarchy
+0BP_STABUPSYS2_TEXT,D,TEXT,0CA_BP-IO,,,V,V_BUPSYS2_BW,BUS_STATUSTEXT_BW,SAP,28.08.2002,09:06:58,BP: Release,BP: Release Status,BP: Release of Business Partners Status
+0BP_STABUPSYS1_TEXT,D,TEXT,0CA_BP-IO,,,V,V_BUPSYS1_BW,BUS_STATUSTEXT_BW,SAP,28.08.2002,09:06:57,BP: Central Lock,BP: Central Lock Status,BP: Central Lock of Business Partners Status
+0BP_STABUPSYS0_TEXT,D,TEXT,0CA_BP-IO,,,V,V_BUPSYS0_BW,BUS_STATUSTEXT_BW,SAP,28.08.2002,09:06:57,BP: Archive/Delete,BP: Archive/Delete Status,BP: Archive/Delete Status of Business Partners
+0WS_STATUS_TEXT,D,TEXT,0CA_SUR-IO,,,D,UWS_BW_STATUS,ROTEXTSTR1,SAP,08.03.2002,16:13:50,Question Status,Question Status,Web Survey: Question Status
+0WS_KFIGTYP_TEXT,D,TEXT,0CA_SUR-IO,,,D,UWS_BW_KFIGTYP,ROTEXTSTR1,SAP,15.03.2002,15:17:53,Key Figure Types,Key Figure Types,Web Survey: Key Figure Types
+0WS_TAROBJ_TEXT,D,TEXT,0CA_SUR-IO,,,F1,UWS_BW_EX_WS_TAROBJ_TEXT,UWS_S_BW_WS_TAROBJ_TEXT,SAP,08.03.2002,16:14:59,Recipient,Recipient,Web Survey: Recipient
+0WS_TAROBJ_ATTR,D,ATTR,0CA_SUR-IO,,,F1,UWS_BW_EX_WS_TAROBJ_ATTR,UWS_S_BW_WS_TAROBJ_ATTR,SAP,08.03.2002,16:14:25,Recipient,Recipient,Web Survey: Recipient
+0WS_SURVEY_TEXT,D,TEXT,0CA_SUR-IO,,,F1,UWS_BW_EX_WS_SURVEY_TEXT,UWS_S_BW_WS_SURVEY_TEXT,SAP,08.03.2002,16:14:07,Survey,Survey,Web Survey: Survey
+0WS_QUEST_TEXT,D,TEXT,0CA_SUR-IO,,,F1,UWS_BW_EX_WS_QUEST_TEXT,UWS_S_BW_WS_QUEST_TEXT,SAP,08.03.2002,16:13:28,Questions,Questions,Web Survey: Questions
+0WS_QSTNNR_TEXT,D,TEXT,0CA_SUR-IO,,,F1,UWS_BW_EX_WS_QSTNNR_TEXT,UWS_S_BW_WS_QSTNNR_TEXT,SAP,08.03.2002,16:13:12,Questionnaire,Questionnaire,Web Survey: Questionnaire
+0WS_ANSWER_TEXT,D,TEXT,0CA_SUR-IO,,,F1,UWS_BW_EX_WS_ANSWER_TEXT,UWS_S_BW_WS_ANSWER_TEXT,SAP,08.03.2002,16:07:57,Reply,Reply,Web Survey: Reply
+0WS_DATA_1,D,TRAN,0CA_SUR,AIE,,F1,UWS_BW_EX_DATA,UWS_S_BW_WS_DATA,SAP,16.04.2002,13:48:21,Survey Results,Survey Results,Web Survey: Survey Results
+0CSM_USER_TEXT,D,TEXT,0CS_CS-IO,,,F2,UDM_CASE_USER_TEXTS,UDM_CASE_USER_TEXT,SAP,13.02.2003,15:52:35,Case User Texts,Case Management: User Texts,Case Management: User Texts
+0CSM_CASE_ATTR_DEL,D,ATTR,0CA_CS,AIM,,F1,UDM_BW_GET_DELETED_CASE_DATA,UDM_BW_CASE_ATTR_DEL,SAP,16.09.2003,11:33:37,Deleted Case Data,Deleted Case Data for BW,Deleted Case Data for BW
+0CSM_CASE_ATTR,D,ATTR,0CA_CS,AIE,,F1,UDM_BW_GET_CASE_DATA,UDM_BW_CASE_ATTR,SAP,15.05.2003,12:37:22,CM: Case (GUID),Case Management: Case (GUID),Case Management: Case (GUID)
+0CSM_CASE_TEXT,D,TEXT,0CA_CS,AIE,,F1,UDM_BW_GET_CASE_DATA,UDM_BW_CASE_ATTR,SAP,15.05.2003,12:37:41,CM: Case Text,Case Management: Case Text,Case Management: Case Text
+0TRZONE_TEXT,D,TEXT,0CA_GD-IO,,,V,TZONT,ROTEXTSTR2,SAP,30.09.2003,11:46:13,Transportation Zone,Transport. Zone (e.g. of Ship-To Party),Transportation Zone (e.g. of Ship-To Party)
+0BP_TITLESPPL_TEXT,D,TEXT,0CA_BP-IO,,,V,TSAD5T,TSAD5T,SAP,28.08.2002,14:36:56,Name Suffix Texts,SAP BP: Texts for Name Suffix,SAP BP: Extraction of Texts for Name Suffix
+0BP_ACTITLE_TEXT,D,TEXT,0CA_BP-IO,,,V,TSAD2T,TSAD2T,SAP,28.08.2002,14:28:51,Texts Academ. Title,SAP BP: Texts for Academic Title,SAP BP: Extraction of Texts for Academic Title
+0FS_BP_RATING_TEXT,D,TEXT,0FS_BP,,,V,TPZ22T,TPZ22T,SAP,11.01.2011,14:22:12,Descript. of Ratings,Description of Ratings,Business Partner: Description of Ratings
+0FS_BP_RATPROC_TEXT,D,TEXT,0FS_BP,,,V,TPZ21T,TPZ21T,SAP,11.01.2011,14:22:12,Rating Procedure,Description of Rating Procedure,Business Partner: Description of Rating Procedure
+0FS_BP_BPGRP_TEXT,D,TEXT,0FS_BP,,,V,TP24T,TP24T,SAP,11.01.2011,14:22:04,Grouping Character,BP: Description of Partner Grouping,BP: Description of Partner Grouping Characteristics
+0FS_BP_UNWISH_TEXT,D,TEXT,0FS_BP,,,V,TP18T,TP18T,SAP,11.01.2011,14:22:17,Undesirability,Description of Reason for Undesirability,Business Partner: Description of Reason for Undesirablitiy
+0FS_BP_GROUP_TEXT,D,TEXT,0FS_BP,,,V,TP13T,TP13T,SAP,11.01.2011,14:22:09,Partner Target Group,Name of Partner Grouping (Target Group),Business Partner: Name of Partner Grouping (Target Group)
+0FS_BP_KWG_TEXT,D,TEXT,0FS_BP,,,V,TP12T,TP12T,SAP,11.01.2011,14:22:10,Credit Standing GBA,Description of Credit Standing Acc. GBA,Business Partner: Description of Credit Standing Acc. to GBA
+0FS_BP_EMPSTATUS_TEXT,D,TEXT,0FS_BP,,,V,TP11T,TP11T,SAP,11.01.2011,14:22:06,Employment Status,Description of Employment Status,Business Partner: Description of Employment Status
+0FS_BP_INDLOAN_TEXT,D,TEXT,0FS_BP,,,V,TP10T,TP10T,SAP,11.01.2011,14:22:10,Des. Loan to Manager,BP: Description of Loan to Manager,Business Partner: Description of Loan to Manager
+0FS_BP_EMPGRP_TEXT,D,TEXT,0FS_BP,,,V,TP05T,TP05T,SAP,11.01.2011,14:22:05,Employee Group,BP: Description of Employee Group,Business Partner: Description of Employee Group
+0FS_BP_MARIT_TEXT,D,TEXT,0FS_BP,,,V,TP04T,TP04T,SAP,11.01.2011,14:22:11,Marital Property,Description of Marital Property Regime,Business Partner: Description of Marital Property Regime
+0FS_BP_SALUT_TEXT,D,TEXT,0FS_BP,,,V,TP02T,TP02T,SAP,11.01.2011,14:22:15,Salutation,Business Partner: Salutation Text,Business Partner: Salutation Text
+0BP_TAXCAT_TEXT,D,TEXT,0CA_BP-IO,,,V,TFKTAXNUMTYPE_T,TFKTAXNUMTYPE_T,SAP,28.08.2002,09:06:59,BP: Tax No. Category,BP: Tax No. Category,BP: Tax No. Category
+0VER_DEVCLASS_TEXT,D,TEXT,0VERIFICATION-TEXTS,,,V,TDEVCT,ROXBY30121,SAP,03.08.2010,22:12:18,Package Description,Package Description,Package Description
+0VER_DEVCLASS_ATTR,D,ATTR,0VERIFICATION-ATTRIBUTES,,,V,TDEVC,ROXBY30123,SAP,03.08.2010,22:10:40,Package,Package,Package
+0FS_BP_TGA_TEXT,D,TEXT,0FS_BP,,,V,TD05T_AT_FS,TD05T_AT_FS,SAP,11.01.2011,14:22:16,Target Group OeNB,BP - Target Group According to OeNB,BP Target Group According to OeNB Indicator Loan to Manager
+/IMO/CFS_FX_RATES,D,TRAN,0COPC,,,V,TCURR,/IMO/ROXBHH0107,SAP,06.11.2013,16:36:48,FX Rates,Foreign Exchange Rates,Foreign Exchange Rates
+0LOGSYS_TEXT,D,TEXT,0CA_PR-IO,,,V,TBDLST,TBDLST,SAP,12.03.2004,11:26:42,Logical System,Logical System,Logical System
+0CMM_PHYS_COMM_TEXT,D,TEXT,CA-GTF-TRB,,,V,TBAV_PHYSC_TEXT,TBAC_PHYSCOMMT,SAP,26.03.2013,08:17:49,Text phys. Commodity,Text physical Commodity,Text physical Commodity
+0CMM_PHYS_COMM_ATTR,D,ATTR,CA-GTF-TRB,,,V,TBAV_PHYSC_ATTR,TBAC_PHYSCOMM,SAP,26.03.2013,08:12:46,Physical Commodity,Physical Commodity,Physical Commodity
+0CMM_MIC_TEXT,D,TEXT,CA-GTF-TRB,,,V,TBAV_MIC_TEXT,TBAC_MICT,SAP,26.03.2013,08:10:59,Text MIC,Text MIC,Text Market Identifier Code
+0CMM_MIC_ATTR,D,ATTR,CA-GTF-TRB,,,V,TBAV_MIC_ATTR,TBAC_MIC,SAP,26.03.2013,08:10:05,MIC,MIC,Market Identifier Code
+0CMM_DCS_TEXT,D,TEXT,CA-GTF-TRB,,,V,TBAV_DCS_TEXT,TBAC_DCST,SAP,26.03.2013,08:08:04,Text DCS,Text DCS,Text Derivative Contrat Specification
+0CMM_DCS_ATTR,D,ATTR,CA-GTF-TRB,,,V,TBAV_DCS_ATTR,TBAC_DCS,SAP,26.03.2013,09:02:48,DCS,Derivative Contract Specification,Derivative Contract Specification
+0CMM_MIC_STATUS_TEXT,D,TEXT,CA-GTF-TRB,,,D,TBA_MIC_STATUS,ROTEXTSTR1,SAP,26.03.2013,08:57:29,Text MIC Status,Text MIC Status,Text Market Identifier Code Status
+0CMM_DCS_CATEGORY_TEXT,D,TEXT,CA-GTF-TRB,,,D,TBA_DERIVATIVETYPE,ROTEXTSTR1,SAP,26.03.2013,08:56:02,Text DCS Category,Text DCS Category,Text Derivative Contract Specification Category
+0CMM_DCS_STATUS_TEXT,D,TEXT,CA-GTF-TRB,,,D,TBA_DCS_LIFECYCLESTATUS,ROTEXTSTR1,SAP,26.03.2013,08:59:23,Text DCS Status,Text DCS Status,Text DCS Lifecycle Status
+0BP_REL_VIP_TEXT,D,TEXT,0CA_BP-IO,,,V,TB917,TB917,SAP,28.08.2002,14:35:37,BP: Cont.Person/VIP,BP: Contact Person/VIP,BP: Contact Partner Relationship/VIP
+0BP_REL_AUTH_TEXT,D,TEXT,0CA_BP-IO,,,V,TB915,TB915,SAP,28.08.2002,14:34:47,BP: Cont.Pers/Auth.,BP: Contact Person/Authority,BP: Contact Person Relationship/Authority
+0BP_REL_FUNC_TEXT,D,TEXT,0CA_BP-IO,,,V,TB913,TB913,SAP,28.08.2002,14:35:22,BP: Cont.Pers./Func.,BP: Contact Person/Function,BP: Contact Person Relationship/Function
+0BP_REL_DEPMNT_TEXT,D,TEXT,0CA_BP-IO,,,V,TB911,TB911,SAP,28.08.2002,14:35:04,BP: Cont.Person/Dept,BP: Contact Partner/Department,BP: Contact Partner Relationship/Department
+0BP_ID_TYPE_TEXT,D,TEXT,0CA_BP-IO,,,V,TB039B,TB039B,SAP,28.08.2002,09:06:47,BP: ID Type Texts,BP: Texts for Identification No. Types,BP: Texts for Identification Number Types
+0IND_NUMSYS_TEXT,D,TEXT,0CA_BP-IO,,,V,TB038T,TB038T,SAP,28.08.2002,14:39:23,Industry Key Systems,Industry Key Systems,Industry Key Systems
+0BP_IND_CODE_TEXT,D,TEXT,0CA_BP-IO,,,V,TB038B,TB038B,SAP,28.08.2002,09:06:47,BP: Industry Texts,BP: Industry Texts,BP: Industry Texts (for InfoObject 0IND_CODE)
+0IND_SECTOR_TEXT,D,TEXT,0CA_BP-IO,,,V,TB038B,TB038B,SAP,28.08.2002,09:07:09,BP: Industry Texts,BP: Industry Texts,BP: Industry Texts (for InfoObject 0IND_SECTOR)
+0CCARDTYPE_TEXT,D,TEXT,0CA_BP-IO,,,V,TB033T,TB033T,SAP,28.08.2002,14:39:07,Credit Card Type,Credit Card Type,Credit Card Type
+0BP_MARST_TEXT,D,TEXT,0CA_BP-IO,,,V,TB027T,TB027T,SAP,28.08.2002,14:32:02,Marital Status Texts,SAP BP: Texts for Marital Status,SAP BP: Extraction of Texts for Marital Status
+0BP_GRPTYPE_TEXT,D,TEXT,0CA_BP-IO,,,V,TB026,TB026,SAP,28.08.2002,14:30:43,Group Texts,SAP BP: Group Type Texts,SAP BP: Text Extraction for Group Type
+0LEGALFORM_TEXT,D,TEXT,0CA_BP-IO,,,V,TB020,TB020,SAP,28.08.2002,14:40:34,Legal Forms,Legal Forms,Legal Forms
+0BPTYPE_TEXT,D,TEXT,0CA_BP-IO,,,V,TB004T,TB004T,SAP,28.08.2002,09:06:39,BP: Partner Type,BP: Business Partner Type,BP: Business Partner Type
+0BP_ROLE_TEXT,D,TEXT,0CA_BP-IO,,,V,TB003T,TB003T,SAP,25.11.2003,17:03:00,BP: Roles,BP: Roles,BP: Roles
+0BP_GROUP_TEXT,D,TEXT,0CA_BP-IO,,,V,TB002,TB002,SAP,28.08.2002,14:30:25,BP Grouping Texts,SAP BP: Texts for BP Grouping,SAP BP: Extraction of Texts for BP Grouping
+0VER_OBJ_NAME_ATTR,D,ATTR,0VERIFICATION-ATTRIBUTES,,,V,TADIR,ROXBY30128,SAP,05.08.2010,18:24:37,Object,Object,Object
+0_TEST_T100_2,D,TRAN,0VERIFICATION,,,Q,T100,ROXBS40142,SAP,08.01.2001,12:16:00,test t100,test t100,test t100
+0VER_LANGU_TEXT,D,TEXT,0VERIFICATION-TEXTS,,,V,T002T,ROXBS30106,SAP,27.09.2002,13:43:29,Language text,Language text,Language text
+0VER_LANGU_ATTR,D,ATTR,0VERIFICATION-ATTRIBUTES,,,V,T002,ROXBS30105,SAP,27.09.2002,13:43:28,Languages,Languages,Languages
+0BPM_WI_TYPE_TEXT,D,TEXT,0BPM-IO,,,D,SWW_WITYPE,ROTEXTSTR1,SAP,09.02.2005,08:30:07,Work item type texts,Work item type texts,Work item type texts
+0BPM_WI_STAT_TEXT,D,TEXT,0BPM-IO,,,D,SWW_WISTAT,ROTEXTSTR1,SAP,09.02.2005,14:49:53,Status of Work Item,Processing Status of a Work Item,Processing Status of a Work Item
+0BPM_WI_DH_STAT_TEXT,D,TEXT,0BPM-IO,,,D,SWW_WIDHST,ROTEXTSTR1,SAP,11.02.2005,11:57:14,Deadline Status,Deadline Status of a Work Item,Deadline Status of a Work Item
+0BPM_WI_RELTYPE_TEXT,D,TEXT,0BPM-IO,,,D,SWW_RELTYP,ROTEXTSTR1,SAP,14.02.2005,10:40:26,WorkItem<>Object Rel,Workflow: Type of Work Item<->Object Rel,Workflow: Type of Work Item<->Object Relation
+0BPM_WI_DATTYPE_TEXT,D,TEXT,0BPM-IO,,,D,SWW_DATTYP,ROTEXTSTR1,SAP,14.02.2005,10:45:21,Deadline Monitoring,Deadline Monitoring of Work Items,Workflow Runtime: Deadline Monitoring of Work Items
+0BPM_ERRORTYPE_TEXT,D,TEXT,0BPM-IO,,,D,SWO_ERRTYP,ROTEXTSTR1,SAP,14.02.2005,10:40:28,Error type,Error type,Error type
+0BPM_WI_PRIO_TEXT,D,TEXT,0BPM-IO,,,D,SWD_PRIORI,ROTEXTSTR1,SAP,11.02.2005,11:18:29,Priority of WorkItem,Priority of a Work Item,Priority of a Work Item
+0BPM_WF_TYPE_TEXT,D,TEXT,0BPM-IO,,,D,SWD_DWFTYP,ROTEXTSTR1,SAP,11.02.2005,10:21:01,Type of Workflow Def,Type of Workflow Definition,Type of Workflow Definition
+0SRM_VE_WKEY_TEXT,D,TEXT,0SRM,,,V,SRM_VE_WT_T,ROXBC90107,SAP,21.08.2003,12:20:35,Weighting Keys,Weighting Keys,Weighting Keys
+0SRM_VEGRID_TEXT,D,TEXT,0SRM,,,V,SRM_VE_GROUP_T,ROXCR30164,SAP,14.02.2003,10:44:16,Grouping ID,Grouping ID,Grouping ID
+0SRM_VE_GUID_ATTR,D,ATTR,0SRM,AIE,,F1,SRM_VE_GET_ATTR,SRM_VE_GUID_ATTR_STRUC,SAP,30.01.2004,09:58:11,Attrs for Evaluation,Attributes for Vendor Evaluation,Attributes for Vendor Evaluation
+0SRM_SUPO_AUTH_1,D,TRAN,QUEUE,AIM,,V,SRM_SUPO_AUTH_T,RSBCTSRM_SUPO_AUTHOBJ_STRUC,SAP,27.11.2003,09:18:51,SuPo Vendor Evaln,Authorization Data for Vendors / SuPo,Authorization Data for Vendors from Supplier Portal
+0EPM_EMPLOYEE,D,ATTR,0EPM,,,V,SNWD_EMPLOYEES,ROXBYD0030,SAP,02.07.2010,14:36:23,Employee,Employee,Employee
+0EPM_EMPLOYEES,A,ATTR,BW_TECH,,,V,SNWD_EMPLOYEES,ROXKIW0680,BEST,05.06.2025,15:53:06,Employees,Employees,Employees
+0EPM_EMPLOYEES,D,ATTR,BW_TECH,,,V,SNWD_EMPLOYEES,ROXKIW0680,SAP,03.05.2016,12:28:05,Employees,Employees,Employees
+0IQM_RUNS,D,ATTR,0VERIFICATION,NEWE,X,V,SIQMRUNS,IQM_S_RUNS,SAP,30.05.2008,07:35:13,IQM Runs,Information Quality Runs,Information Quality Runs
+0IQM_RESULTS,D,TRAN,0VERIFICATION,NEWE,X,V,SIQMRESULTS,IQM_S_RESULTS,SAP,30.05.2008,07:34:39,IQ Results,Information Quality Results,Information Quality Results
+0IQM_MESSAGES,D,TRAN,0VERIFICATION,NEWE,X,V,SIQMRESULTMSG,IQM_S_MESSAGES,SAP,30.05.2008,07:35:14,IQ Messages,Information Quality Messages,Information Quality Messages
+0IQM_KEYS,D,ATTR,0VERIFICATION,NEWE,X,V,SIQMKEYS,IQM_S_KEYS,SAP,30.05.2008,07:35:11,IQ Object Key,Information Quality Object Key,Information Quality Object Key
+0IQM_RELATIONTYPE,D,TEXT,0VERIFICATION,,,D,SIQM_RELATIONTYPE,ROTEXTSTR1,SAP,30.05.2008,07:35:12,IQM Reference Type,IQM Reference Type,Reference Type (Information Quality)
+0IQM_CHECKSCOPE,D,TEXT,0VERIFICATION,,,D,SIQM_CHECKSCOPE,ROTEXTSTR1,SAP,30.05.2008,07:35:10,IQM Checking Scope,IQM Checking Scope,Checking Scope (Information Quality)
+0IQM_CHECKKIND,D,TEXT,0VERIFICATION,,,D,SIQM_CHECKKIND,ROTEXTSTR1,SAP,30.05.2008,07:35:09,IQM Type of Check,IQM Type of Check,Type of Check (Information Quality)
+0IQM_CHECKCATEGORY,D,TEXT,0VERIFICATION,,,D,SIQM_CHECKCATEGORY,ROTEXTSTR1,SAP,30.05.2008,07:35:08,IQM Checking Categ.,IQM Checking Categ.,Checking Category (Information Quality)
+0BPM_CATID_TEXT,D,TEXT,0BPM-IO,,,D,SIBFCATID,ROTEXTSTR1,SAP,14.02.2005,16:24:04,Category of Objects,Category of Objects,Category of Objects in Persistent Object References
+0VER_SFLIGHT_TRAN,D,TRAN,0VERIFICATION-DATA,AIE,X,V,SFLIGHT,ROXBYA0012,SAP,04.05.2006,14:38:16,Flight,Flight,Flight (SFLIGHT Table)
+ZDEMODS1,A,TRAN,BW,,,V,SFLIGHT,ZOXA4H0133,BEST,23.06.2025,17:22:56,Flight DS,Flight DS to BW,Extract Flight DS to BW
+ZSDEMODS1,A,TRAN,DM-IO,,,V,SFLIGHT,ZOXA4H0143,BEST,10.09.2025,17:02:53,Flifhht Ds,Flight data source,Extractor sfligyht to bw
+0TCTSIGN_TEXT,D,TEXT,TCT,,,D,SCOMSIGN,ROTEXTSTR1,SAP,18.07.2012,14:01:42,Sign Analog Ranges,Sign Analogous to Ranges Table,Sign Analogous to Ranges Table
+0CSM_SSTA_TEXT,D,TEXT,0CS_CS-IO,,,V,SCMGSTATT,ROXSE30021,SAP,13.02.2003,15:48:53,CM: Sys. Status Text,Case Management: System Status Text,Case Management: System Status Text
+0CSM_SPRO_TEXT,D,TEXT,0CS_CS-IO,,,V,SCMGSTATPROFT,ROXSE30026,SAP,13.02.2003,15:48:30,CM: Stat. Prof. Text,Case Management: Status Profile Text,Case Management: Status Profile Text
+0CSM_STAT_TEXT,D,TEXT,0CS_CS-IO,,,V,SCMGSTATPROFST,ROXSE30027,SAP,13.02.2003,15:49:20,CM: Status Text,Case Management: Status Text,Case Management: Status Text
+0CSM_PRCS_TEXT,D,TEXT,0CS_CS-IO,,,V,SCMGPROCT,ROXSE30022,SAP,13.02.2003,15:47:20,CM: Process Text,Case Management: Process Text,Case Management: Process Text
+0CSM_TYPE_TEXT,D,TEXT,0CS_CS-IO,,,V,SCMGCASETYPET,ROXSE30012,SAP,13.02.2003,15:50:01,CM: Case Type Text,Case Management: Case Type Text,Case Management: Case Type Text
+0CSM_TYPE_ATTR,D,ATTR,0CS_CS-IO,,,V,SCMGCASETYPE,ROXSE30016,SAP,13.02.2003,15:49:47,CM: Case Type Attr.,Case Management: Case Type Attribute,Case Management: Case Type Attribute
+0CSM_SECU_TEXT,D,TEXT,0CS_CS-IO,,,V,SCMGAUT_SECLEVLT,ROXSE30020,SAP,13.02.2003,15:48:16,CM: Auth. Level Text,Case Management: Authoriztn Level Text,Case Management: Authorization Level Text
+0CSM_ESCA_TEXT,D,TEXT,0CS_CS-IO,,,V,SCMGATTR_SESCALT,ROXSE30019,SAP,13.02.2003,15:46:56,CM: Escalation Text,Case Management: Escalation Text,Case Management: Escalation Text
+0CSM_RCOD_TEXT,D,TEXT,0CS_CS-IO,,,V,SCMGATTR_REASONT,ROXSE30017,SAP,13.02.2003,15:47:59,CM: Reason Text,Case Management: Reason Text,Case Management: Reason Text
+0CSM_PRIO_TEXT,D,TEXT,0CS_CS-IO,,,V,SCMGATTR_PRIOT,ROXSE30011,SAP,13.02.2003,15:49:06,CM: Priority Texts,Case Management: Priority Texts,Case Management: Priority Texts
+0CSM_CATE_TEXT,D,TEXT,0CS_CS-IO,,,V,SCMGATTR_CATEGOT,ROXSE30018,SAP,13.02.2003,15:46:40,CM: Category Text,Case Management: Category Text,Case Management: Category Text
+0VER_SCARR_ATTR,D,ATTR,0VERIFICATION-ATTRIBUTES,,,V,SCARR,ROXBYA0023,SAP,29.08.2006,13:34:51,Airline (A),Airline (Attribute),Airline (Attribute)
+0VER_SCARR_TEXT,D,TEXT,0VERIFICATION-TEXTS,,,V,SCARR,ROXBYA0024,SAP,29.08.2006,13:47:49,Airline (T),Airline (Text),Airline (Text)
+0BPM_ALERT_STATUS_TEXT,D,TEXT,0BPM-IO,,,D,SALRTOSTAT,ROTEXTSTR1,SAP,18.02.2005,12:59:17,Alert Status,Alert Status,Alert Status
+0BPM_ALERT_PRIO_TEXT,D,TEXT,0BPM-IO,,,D,SALRTOPRIO,ROTEXTSTR1,SAP,18.02.2005,12:54:07,Alert Priority,Alert Priority,Alert Priority
+0BPM_ALERT_CAT_TEXT,D,TEXT,0BPM-IO,,,V,SALRTCATT,SALRTCATT,SAP,18.02.2005,12:50:25,Alert Category Text,Alert Category Text,Alert Category Text
+0BPM_ALERT_CAT_CLASS_TEXT,D,TEXT,0BPM-IO,,,V,SALRTCATCT,SALRTCATCT,SAP,18.02.2005,12:50:57,AlertCat:ClassTexts,Alert Category: Classification Texts,Alert Category: Classification Texts
+0BPM_ALERT_CAT_ATTR,D,ATTR,0BPM-IO,,,V,SALRTCAT,SALRTCAT,SAP,18.02.2005,12:57:42,AlertCat Definition,Alert Category Definition,Alert Category Definition
+0TCTOPTION_TEXT,D,TEXT,TCT,,,D,S_OPTION,ROTEXTSTR1,SAP,18.07.2012,14:01:31,Option Analog Ranges,Option Analogous to Ranges Table,Option Analogous to Ranges Table
+0TCTELEMTYP_TEXT,D,TEXT,TCT,,,D,RSZDEFTP,ROTEXTSTR1,SAP,18.07.2012,14:01:17,Query Element Type,Query Element Type,BW Metadata: Query Element Type
+0VER_CHARNO_DATA,D,TRAN,0VERIFICATION-DATA,,,F2,RSVL_CHARNO_GET_TEXTS,ROVERCHART,SAP,27.09.2002,13:43:27,SAP character set,SAP character set,SAP character set
+0VER_CHARNO_TEXT,D,TEXT,0VERIFICATION-TEXTS,,,F2,RSVL_CHARNO_GET_TEXTS,ROVERCHART,SAP,27.09.2002,13:43:28,SAP character set,SAP character set,SAP character set
+0VER_CHARNO_ATTR,D,ATTR,0VERIFICATION-ATTRIBUTES,,,F2,RSVL_CHARNO_GET_MASTER_DATA,ROVERCHAR,SAP,27.09.2002,13:43:26,SAP character set,SAP character set,SAP character set
+0VER_CHAR_TEXT,D,TEXT,0VERIFICATION-TEXTS,,,F2,RSVL_CHAR_GET_TEXTS,ROVERCHARTEXT,SAP,06.06.2011,17:59:59,Valid Character,Valid Character,Valid Character
+0VER_CHAR_ATTR,D,ATTR,0VERIFICATION-ATTRIBUTES,,,F2,RSVL_CHAR_GET_MASTER_DATA,ROVERCHARATTR,SAP,06.06.2011,18:02:10,Valid Character,Valid Character,Valid Character
+0VER_EDELTA_TRAN,D,TRAN,0VERIFICATION-DATA,CUBE,,F1,RSVDELTA_EDELTA_GET,ROVERCUBE_S,SAP,04.04.2001,11:05:19,Extractor Delta Test,Extractor Delta Test,Extractor Delta Test
+0VER_DDELTA_TRAN,D,TRAN,0VERIFICATION-DATA,NEWD,,F1,RSVDELTA_DDELTA_GET,ROVERCUBE_S,SAP,11.04.2002,14:51:16,Extractor Delta Test,Extractor Delta Test,Extractor Delta Test
+0VER_DDELTA_TRAN_NEW,D,TRAN,0VERIFICATION-DATA,NEWD,,F1,RSVDELTA_DDELTA_GET,ROVERCUBE_S,SAP,19.08.2005,19:29:19,Extractor Delta Test,Extractor Delta Test,Extractor Delta Test
+0VER_CUBE_OLD_LIS,D,TRAN,0VERIFICATION-DATA,CUBE,,F1,RSVD_BW_GET_DELTA_DATA,ROVERCUBE2,SAP,21.08.2001,12:07:09,DS with Initcommit,DataSource with Initcommit,Delta and Repeat-Capable DataSource with Initcommit
+0VER_DELTA_WITH_LONG_NAME,D,TRAN,0VERIFICATION-DATA,CUBE,,F1,RSVD_BW_GET_DELTA_DATA,ROVERCUBE2,SAP,21.08.2001,11:07:24,Long Delta Source,Long Delta Source,Delta-Capable DataSource with Long Name
+0VER_CUBE_WITH_ARCHIVE,D,TRAN,0VERIFICATION-DATA,CUBE,,F1,RSVD_BW_GET_DATA_WITH_ARCHIVE,ROVERCUBE2,SAP,21.08.2001,12:07:11,With Archiving Link,DataSource with Archiving Link,Delta-Capable DataSource with Archiving Link
+0VER_TYPE_ATTR,D,ATTR,0VERIFICATION-ATTRIBUTES,AIE,,F1,RSVD_BW_GET_DATA,ROVERTYPAS,SAP,22.07.2010,21:33:21,Test Type,Test Type in Verification Scenario,Test Type in Verification Scenario
+0VER_TYPE_ATTR_NEW,D,ATTR,0VERIFICATION-ATTRIBUTES,AIED,,F1,RSVD_BW_GET_DATA,ROVERTYPAS,SAP,16.08.2005,10:26:42,Test Type,Test Type in Verification Scenario,Test Type in Verification Scenario
+0VER_FIELD_HIER_6,D,HIER,0VERIFICATION-HIERARCHIES,,,F1,RSV7_HIERARCHY_TRANSFER_TEST_6,ROVERFHSE6,SAP,19.07.2010,18:40:38,Without IDOC Trans.,Without IDOC Transfer,New Hchy DataSource w/o IDOC Trans. with Time-Dep. Nodes
+0VER_FIELD_HIER_4,D,HIER,0VERIFICATION-HIERARCHIES,,,F1,RSV7_HIERARCHY_TRANSFER_TEST_4,ROHIEROS,SAP,21.03.2006,19:25:41,Without Intervals,Without Intervals,Hierarchy DataSource for tRFC Transfer Without Intervals
+0VER_FIELD_HIER_3,D,HIER,0VERIFICATION-HIERARCHIES,,,F1,RSV7_HIERARCHY_TRANSFER_TEST_3,ROHIEROS,SAP,19.08.2008,15:18:24,Hierarchy Test Field,Hierarchy Using Test Fields,Hierarchy using Test Field (alt. comp. for OVER_FIELD_HIER)
+0VER_FIELD_HIER_2,D,HIER,0VERIFICATION-HIERARCHIES,,,F1,RSV7_HIERARCHY_TRANSFER_TEST_2,ROHIEROS,SAP,19.08.2008,15:17:39,Without IDOC Trans.,Without IDOC Transfer,New Hierarchy DataSource without IDOC Transfer
+0VER_FIELD_HIER,D,HIER,0VERIFICATION-HIERARCHIES,,,F1,RSV7_HIERARCHY_TRANSFER_TEST,ROHIEROS,SAP,22.07.2010,15:18:34,Hierarchy Test Field,Hierarchy Using Test Fields,Hierarchy using Test Fields (Fixed Structure IDOC Only)
+0VER_FIELD_HIER_5,D,HIER,0VERIFICATION-HIERARCHIES,,,F1,RSV7_HIERARCHY_TRANSFER_TEST,ROHIEROS,SAP,21.03.2006,19:26:23,Hierarchy Test Field,Hierarchy Using Test Fields,Hierarchy Using Test Fields (IDOC Structures but with PSA)
+0VER_FIELD_HIER_NEW,D,HIER,0VERIFICATION-HIERARCHIES,,,F1,RSV7_HIERARCHY_TRANSFER_TEST,ROHIEROS,SAP,16.08.2005,10:26:39,Hierarchy Test Field,Hierarchy Using Test Fields,Hierarchy using Test Fields (Fixed Structure IDOC Only)
+0VER_DEVCLASS_HIER,D,HIER,0VERIFICATION-HIERARCHIES,,,F1,RSV7_DEVCLASS_HIER_TRANSFER,ROHIEROS,SAP,16.08.2010,15:09:06,Package Hierarchy,Package Hierarchy,Package Hierarchy
+0TCTUPDMOD_TEXT,A,TEXT,TCT-MON-IO,,,D,RSUPDMODE,ROTEXTSTR1,DDIC,07.01.2025,22:46:13,Load Mode (Texts),Texts for Mode of Data Update,"Texts for Mode of Data Update (Full, Delta,...)"
+0TCTUPDMOD_TEXT,D,TEXT,TCT-MON-IO,,,D,RSUPDMODE,ROTEXTSTR1,SAP,18.07.2012,14:01:46,Load Mode (Texts),Texts for Mode of Data Update,"Texts for Mode of Data Update (Full, Delta,...)"
+0VTYPE_TEXT,D,TEXT,0CA_GD-IO,,,V,RSTVTYPE,BWE_VTYPE,SAP,24.06.2010,14:34:16,Value Type,Value Type,Value Type for Reporting
+0IQM_TRANSTEPTYPET,D,TEXT,0VERIFICATION,,,V,RSTRANSTEPTYPET,RSIQMX_TRANSTEPTYPET,SAP,18.07.2012,14:01:06,IQM Checking Tech.,IQM Checking Technology - Texts,Checking Technology - Texts (Information Quality)
+0RS_OBJTYP_TEXT_UPLOAD,D,TEXT,0BICONTENT_TOOLS,,,D,RSTLOGO,ROTEXTSTR1,SAP,13.04.2011,15:56:26,Object Type Text,Object Type Text,Object Type Text
+0TCTTLOGO_TEXT,D,TEXT,TCT,,,D,RSTLOGO,ROTEXTSTR1,SAP,18.07.2012,14:01:45,Object Type,Object Type,BW Metadata: Object Type
+0TCTTABCAT_TEXT,A,TEXT,TCT,,,D,RSTCTTABCAT,ROTEXTSTR1,DDIC,07.01.2025,22:46:13,Texts for Table Cat.,Texts for the DB Statistics's Table Cat.,Texts for the DB Statistics's Table Category Infoobject
+0TCTTABCAT_TEXT,D,TEXT,TCT,,,D,RSTCTTABCAT,ROTEXTSTR1,SAP,09.06.2010,15:50:32,Texts for Table Cat.,Texts for the DB Statistics's Table Cat.,Texts for the DB Statistics's Table Category Infoobject
+0TCTBWOTYPE_TEXT,A,TEXT,TCT,,,D,RSTCTLOGO,ROTEXTSTR1,DDIC,07.01.2025,22:45:58,BW Object Type,BW Object Type,BW Meta Data: BW Object Type - Text
+0TCTBWOTYPE_TEXT,D,TEXT,TCT,,,D,RSTCTLOGO,ROTEXTSTR1,SAP,09.06.2010,15:50:06,BW Object Type,BW Object Type,BW Meta Data: BW Object Type - Text
+0TCTDTCLASS_TEXT,A,TEXT,TCT,,,D,RSTCTDATACLASS,ROTEXTSTR1,DDIC,07.01.2025,22:46:01,Text for Data  Class,Text for Table Data Class Infoobject,Text for Table Data Class Infoobject
+0TCTDTCLASS_TEXT,D,TEXT,TCT,,,D,RSTCTDATACLASS,ROTEXTSTR1,SAP,09.06.2010,15:50:10,Text for Data  Class,Text for Table Data Class Infoobject,Text for Table Data Class Infoobject
+0TCTBWOBJCT_HIER,D,HIER,TCT,,,F1,RSTCTCB_HIERARCHY_TRANSFER,ROHIEROS,SAP,09.06.2010,15:50:05,BW Object - Hier.,BW Meta Data: BW Object - Hierarchies,BW Meta Data: BW Object - Hierarchies
+0TCT_DS15,A,TRAN,TCT,,,F1,RSTCT_GET_DTA_DATA_STATUS,RSTC_S_EXTR_0TCT_EX15,DDIC,07.01.2025,22:46:25,BW datastorages with,BW datastorages with inconsistent data,BW datastorages with inconsistent & incomplete data
+0TCT_DS15,D,TRAN,TCT,,,F1,RSTCT_GET_DTA_DATA_STATUS,RSTC_S_EXTR_0TCT_EX15,SAP,09.06.2010,15:50:44,BW datastorages with,BW datastorages with inconsistent data,BW datastorages with inconsistent & incomplete data
+0TCT_DS25,A,TRAN,TCT,,,F1,RSTCT_GET_DB_STATISTICS,RSTC_S_EXTR_0TCT_EX25,DDIC,07.01.2025,22:46:30,DataSource DB stat.,DataSource for the DB Volume Statistics,DataSource for the DB Volume Statistics
+0TCT_DS25,D,TRAN,TCT,,,F1,RSTCT_GET_DB_STATISTICS,RSTC_S_EXTR_0TCT_EX25,SAP,09.06.2010,15:50:48,DataSource DB stat.,DataSource for the DB Volume Statistics,DataSource for the DB Volume Statistics
+0TCT_DS11,A,TRAN,TCT,,,F1,RSTC_GET_STATUS_DATA,RSTC_S_EXTR_0TCT_EX11,DDIC,07.01.2025,22:46:24,Data Load Status,Transaction Data - Load Status,BW Statistics: Transaction Data - Load Status
+0TCT_DS11,D,TRAN,TCT,,,F1,RSTC_GET_STATUS_DATA,RSTC_S_EXTR_0TCT_EX11,SAP,09.06.2010,15:50:43,Data Load Status,Transaction Data - Load Status,BW Statistics: Transaction Data - Load Status
+0TCT_DS12,A,TRAN,TCT,NEWE,,F1,RSTC_GET_STATUS_DATA,RSTC_S_EXTR_0TCT_EX12,DDIC,07.01.2025,22:46:25,Process Chain Status,Process Chain Status,BW Status: Process Chain Status
+0TCT_DS12,D,TRAN,TCT,NEWE,,F1,RSTC_GET_STATUS_DATA,RSTC_S_EXTR_0TCT_EX12,SAP,04.08.2015,13:56:41,Process Chain Status,Process Chain Status,BW Status: Process Chain Status
+0TCT_DS14,D,TRAN,TCT,,,F1,RSTC_GET_STATUS_DATA,RSTC_S_EXTR_0TCT_EX14,SAP,09.06.2010,15:50:44,Report Availability,Report Availability Status,Transactional data : Report Availability Status
+0TCT_DS24,A,TRAN,TCT,NEWE,,F1,RSTC_GET_RDA_DATA,RSTC_S_EXTR_0TCT_EX24,DDIC,07.01.2025,22:46:29,RDA Statistics,Real Time Daemon Statistics,Real Time Daemon Statistics
+0TCT_DS24,D,TRAN,TCT,NEWE,,F1,RSTC_GET_RDA_DATA,RSTC_S_EXTR_0TCT_EX24,SAP,09.06.2010,15:50:47,RDA Statistics,Real Time Daemon Statistics,Real Time Daemon Statistics
+0TCTPRCSCHN_HIER,A,HIER,TCT,,,F1,RSTC_GET_PRCSCHN_HIER,ROHIEROS,DDIC,07.01.2025,22:46:07,BI Proc Chain - Hier,BI Meta Data: Process Chain - Hierarchy,BI Meta Data: Process Chain - Hierarchy
+0TCTPRCSCHN_HIER,D,HIER,TCT,,,F1,RSTC_GET_PRCSCHN_HIER,ROHIEROS,SAP,09.06.2010,15:50:20,BI Proc Chain - Hier,BI Meta Data: Process Chain - Hierarchy,BI Meta Data: Process Chain - Hierarchy
+0TCTIFAREA_HIER,A,HIER,TCT,,,F1,RSTC_GET_INFOAREA_HIER,ROHIEROS,DDIC,07.01.2025,22:46:03,BI InfoArea - Hier,BI Meta Data: InfoArea - Hierarchy,BI Meta Data: InfoArea - Hierarchy
+0TCTIFAREA_HIER,D,HIER,TCT,,,F1,RSTC_GET_INFOAREA_HIER,ROHIEROS,SAP,09.06.2010,15:50:11,BI InfoArea - Hier,BI Meta Data: InfoArea - Hierarchy,BI Meta Data: InfoArea - Hierarchy
+0TCT_DS05,A,TRAN,TCT,,,F1,RSTC_GET_CACHE_USAGE_DATA,RSTC_S_EXTR_0TCT_EX05,DDIC,07.01.2025,22:46:21,OLAP Cache: Memory c,OLAP Cache: Memory consumption,OLAP Cache: Memory consumption
+0TCT_DS05,D,TRAN,TCT,,,F1,RSTC_GET_CACHE_USAGE_DATA,RSTC_S_EXTR_0TCT_EX05,SAP,09.06.2010,15:50:41,OLAP Cache: Memory c,OLAP Cache: Memory consumption,OLAP Cache: Memory consumption
+0TCT_DS06,A,TRAN,TCT,,,F1,RSTC_GET_CACHE_USAGE_DATA,RSTC_S_EXTR_0TCT_EX06,DDIC,07.01.2025,22:46:22,OLAP Cache: Cache Vs,OLAP Cache: Cache Vs SHM,OLAP Cache: Cache Vs SHM
+0TCT_DS06,D,TRAN,TCT,,,F1,RSTC_GET_CACHE_USAGE_DATA,RSTC_S_EXTR_0TCT_EX06,SAP,09.06.2010,15:50:42,OLAP Cache: Cache Vs,OLAP Cache: Cache Vs SHM,OLAP Cache: Cache Vs SHM
+0TCT_DS07,A,TRAN,TCT,,,F1,RSTC_GET_CACHE_USAGE_DATA,RSTC_S_EXTR_0TCT_EX07,DDIC,07.01.2025,22:46:23,Query Memory consump,OLAP Cache: Query Memory consumption,OLAP Cache: Query Memory consumption
+0TCT_DS07,D,TRAN,TCT,,,F1,RSTC_GET_CACHE_USAGE_DATA,RSTC_S_EXTR_0TCT_EX07,SAP,09.06.2010,15:50:42,Query Memory consump,OLAP Cache: Query Memory consumption,OLAP Cache: Query Memory consumption
+0TCTBWOSTYP_TEXT,A,TEXT,TCT,,,F1,RSTC_GET_BWOSTYP_TEXT,RSTC_S_EXTR_BWOSTYP_TEXT,DDIC,07.01.2025,22:45:58,BW Sub Obj Type Type,BW Sub Obj Type - Type,BW Meta Data: BW Sub-Object Type -Text
+0TCTBWOSTYP_TEXT,D,TEXT,TCT,,,F1,RSTC_GET_BWOSTYP_TEXT,RSTC_S_EXTR_BWOSTYP_TEXT,SAP,09.06.2010,15:50:06,BW Sub Obj Type Type,BW Sub Obj Type - Type,BW Meta Data: BW Sub-Object Type -Text
+0TCT_DS26,A,TRAN,TCT,,,F1,RSTC_GET_BWA_USAGE_DATA,RSTCT_S_EXTR_0TCT_EX26,DDIC,07.01.2025,22:46:30,BWA Usage,BWA Usage Status,BWA Usage Status
+0TCT_DS26,D,TRAN,TCT,,,F1,RSTC_GET_BWA_USAGE_DATA,RSTCT_S_EXTR_0TCT_EX26,SAP,18.07.2012,14:26:24,BWA Usage,BWA Usage Status,BWA Usage Status
+0TCT_DS27,A,TRAN,TCT,,,F1,RSTC_GET_BWA_USAGE_DATA,RSTCT_S_EXTR_0TCT_WSP,DDIC,07.01.2025,22:46:31,Workspace Properties,Workspace Properties,Workspace Properties
+0TCT_DS27,D,TRAN,TCT,,,F1,RSTC_GET_BWA_USAGE_DATA,RSTCT_S_EXTR_0TCT_WSP,SAP,18.07.2012,14:26:25,Workspace Properties,Workspace Properties,Workspace Properties
+0TCT_DS28,A,TRAN,TCT,,,F1,RSTC_GET_BWA_USAGE_DATA,RSTCT_S_EXTR_0TCT_LPRO,DDIC,07.01.2025,22:46:32,Local provider prop,Workspace: Local provider properties,Local provider properties of workspace
+0TCT_DS28,D,TRAN,TCT,,,F1,RSTC_GET_BWA_USAGE_DATA,RSTCT_S_EXTR_0TCT_LPRO,SAP,18.07.2012,14:26:26,Local provider prop,Workspace: Local provider properties,Local provider properties of workspace
+0TCTAPPL_HIER,A,HIER,TCT,,,F1,RSTC_GET_APPL_HIER,ROHIEROS,DDIC,07.01.2025,22:45:55,BI Appl Comp - Hier,BI Meta Data: Appl Component - Hierarchy,BI Meta Data: Application Component - Hierarchy
+0TCTAPPL_HIER,D,HIER,TCT,,,F1,RSTC_GET_APPL_HIER,ROHIEROS,SAP,09.06.2010,15:50:02,BI Appl Comp - Hier,BI Meta Data: Appl Component - Hierarchy,BI Meta Data: Application Component - Hierarchy
+0TCTERRTYP_TEXT,A,TEXT,TCT,,,D,RSTC_ERROR_TYPE,ROTEXTSTR1,DDIC,07.01.2025,22:46:02,Text data source for,Text data source for error type in bw dt,Text data source for error type in bw dta and processes
+0TCTERRTYP_TEXT,D,TEXT,TCT,,,D,RSTC_ERROR_TYPE,ROTEXTSTR1,SAP,18.07.2012,14:26:21,Text data source for,Text data source for error type in bw dt,Text data source for error type in bw dta and processes
+0TCTERCAUSE_TEXT,A,TEXT,TCT,,,D,RSTC_DATALOAD_ERROR_STATE,ROTEXTSTR1,DDIC,07.01.2025,22:46:02,Text Datasource f,Text Datasource for DataLoad Failure Cau,Text Datasource for DataLoad Failure Cause
+0TCTERCAUSE_TEXT,D,TEXT,TCT,,,D,RSTC_DATALOAD_ERROR_STATE,ROTEXTSTR1,SAP,09.06.2010,15:50:10,Text Datasource f,Text Datasource for DataLoad Failure Cau,Text Datasource for DataLoad Failure Cause
+0TCTCACHTYP_TEXT,A,TEXT,TCT,,,D,RSTC_CACHE,ROTEXTSTR1,DDIC,07.01.2025,22:45:59,MD text Cache Type,Master data text: Cache Type,Master data text: Cache Type
+0TCTCACHTYP_TEXT,D,TEXT,TCT,,,D,RSTC_CACHE,ROTEXTSTR1,SAP,09.06.2010,15:50:06,MD text Cache Type,Master data text: Cache Type,Master data text: Cache Type
+0TCT_DS02,A,TRAN,TCT,NEWE,,F1,RSTC_BIRS_OLAP_DETAILED_DATA,RSTC_BIRS_OLAP_DETAILED_EX,DDIC,07.01.2025,22:46:19,OLAP: Detailed Data,OLAP: Detailed Data,OLAP: Detailed Data
+0TCT_DS02,D,TRAN,TCT,NEWE,,F1,RSTC_BIRS_OLAP_DETAILED_DATA,RSTC_BIRS_OLAP_DETAILED_EX,SAP,09.06.2010,15:50:40,OLAP: Detailed Data,OLAP: Detailed Data,OLAP: Detailed Data
+0TCT_DS01,A,TRAN,TCT,NEWE,,F1,RSTC_BIRS_OLAP_AGGREGATED_DATA,RSTC_BIRS_OLAP_AGGR_EX,DDIC,07.01.2025,22:46:18,OLAP:Aggregated data,OLAP: Aggregated Data,OLAP: Aggregated Data
+0TCT_DS01,D,TRAN,TCT,NEWE,,F1,RSTC_BIRS_OLAP_AGGREGATED_DATA,RSTC_BIRS_OLAP_AGGR_EX,SAP,09.06.2010,15:50:39,OLAP:Aggregated data,OLAP: Aggregated Data,OLAP: Aggregated Data
+0TCT_DSA1,A,TRAN,TCT,NEWE,,F1,RSTC_BIRS_OLAP_AGGR_DATA_A,RSTC_BIRS_OLAP_HAGGR_EX,DDIC,07.01.2025,22:46:34,OLAP:Highly AggrData,OLAP:Highly  Aggregated Data,OLAP:Highly  Aggregated Data
+0TCT_DSA1,D,TRAN,TCT,NEWE,,F1,RSTC_BIRS_OLAP_AGGR_DATA_A,RSTC_BIRS_OLAP_HAGGR_EX,SAP,09.06.2010,15:50:50,OLAP:Highly AggrData,OLAP:Highly  Aggregated Data,OLAP:Highly  Aggregated Data
+0TCT_DS03,A,TRAN,TCT,NEWE,,F1,RSTC_BIRS_DM_DETAILED_DATA,RSTC_BIRS_DM_DETAILED_EX,DDIC,07.01.2025,22:46:20,DM detailed data,Data Manager: Detailed Data,Data Manager: Detailed Data
+0TCT_DS03,D,TRAN,TCT,NEWE,,F1,RSTC_BIRS_DM_DETAILED_DATA,RSTC_BIRS_DM_DETAILED_EX,SAP,09.06.2010,15:50:41,DM detailed data,Data Manager: Detailed Data,Data Manager: Detailed Data
+0TCTOLAP_DM_TEXT,A,TEXT,TCT,,,D,RSTC_ACCESS_FLAG,ROTEXTSTR1,DDIC,07.01.2025,22:46:06,Text Datasource,Text Datasource for access flag,Text Datasource for access flag
+0TCTOLAP_DM_TEXT,D,TEXT,TCT,,,D,RSTC_ACCESS_FLAG,ROTEXTSTR1,SAP,09.06.2010,15:50:19,Text Datasource,Text Datasource for access flag,Text Datasource for access flag
+0TB_TALIM_CH,D,ATTR,0TB,,,V,RSTBBW_TALIM_CH,RSTBBW_TALIM_CH,SAP,21.04.2006,12:05:19,Limit Cat.- Cust.,Limit Category - Customizing,Limit Category - Customizing
+0TCTSUBSTEP_ATTR,A,ATTR,TCT,,,V,RSSUBSTEP2EVID,ROXBR90196,DDIC,07.01.2025,22:46:11,DTP Sub-Step,DTP Sub-Step,BW Metadata: DTP Sub-Step
+0TCTSUBSTEP_ATTR,D,ATTR,TCT,,,V,RSSUBSTEP2EVID,ROXBR90196,SAP,09.06.2010,15:50:31,DTP Sub-Step,DTP Sub-Step,BW Metadata: DTP Sub-Step
+0TCTSRCTYPE_TEXT,A,TEXT,TCT-MON-IO,,,D,RSSRCTYPE,ROTEXTSTR1,DDIC,07.01.2025,22:46:10,SourceSystemTypeText,Texts for Source System Type,Texts for Source System Type
+0TCTSRCTYPE_TEXT,D,TEXT,TCT-MON-IO,,,D,RSSRCTYPE,ROTEXTSTR1,SAP,18.07.2012,14:01:43,SourceSystemTypeText,Texts for Source System Type,Texts for Source System Type
+0TCTWHMACT_TEXT,A,TEXT,TCT,,,D,RSSMACTIONTYPE,ROTEXTSTR1,DDIC,07.01.2025,22:46:15,Trans. Type (WHM),Transaction Type (WHM),BW Statistics: Transaction Type (WHM)
+0TCTWHMACT_TEXT,D,TEXT,TCT,,,D,RSSMACTIONTYPE,ROTEXTSTR1,SAP,18.07.2012,14:01:49,Trans. Type (WHM),Transaction Type (WHM),BW Statistics: Transaction Type (WHM)
+0TCT_MON_IS_01,D,TRAN,TCT-MON,ADD,,F1,RSSM_EXTRAKTOR_SELECTIONS,RSMONSELEXT,SAP,18.07.2012,14:01:52,Data Slice,Data Slice (Requests in InfoCube),Data Slice (Requests in InfoCube)
+0TCTREQUID_ATTR,A,ATTR,TCT-MON-IO,E,,F1,RSSM_EXTRAKTOR_REQUEST,RSMONREQEXT,DDIC,07.01.2025,22:46:09,Data Request (Attr.),Attributes for Data Request (GUID),Attributes for Data Request (GUID)
+0TCTREQUID_ATTR,D,ATTR,TCT-MON-IO,E,,F1,RSSM_EXTRAKTOR_REQUEST,RSMONREQEXT,SAP,18.07.2012,14:01:36,Data Request (Attr.),Attributes for Data Request (GUID),Attributes for Data Request (GUID)
+80BPARTNERH,A,HIER,DM-IO,,,F1,RSSH_HIERARCHY_TRANSFER,/BIC/CE80BPARTNERH,BEST,05.02.2025,05:13:20,,,
+80PLANTH,A,HIER,DM-IO,,,F1,RSSH_HIERARCHY_TRANSFER,/BIC/CE80PLANTH,BEST,05.02.2025,05:16:03,,,
+0TCTACOMPM_TEXT,D,TEXT,TCT,,,D,RSSBCOMPMODE,ROTEXTSTR1,SAP,18.07.2012,14:01:09,Validity Period,Hierarchy Validity Period Authorization,Hierarchy Validity Period Authorization
+0TCTATYPE_TEXT,D,TEXT,TCT,,,D,RSSAUTHHIERTYPE,ROTEXTSTR1,SAP,18.07.2012,14:01:12,Type H Authoriztn,Type of Authorization: Hierarchy,Type of Authorization for a Hierarchy
+0CB_DST_TEXT,D,TEXT,0BCT_CB_IO,,,D,RSREQUTYPE,ROTEXTSTR1,SAP,13.04.2011,15:56:18,DataSource Type Text,DataSource Type Text,DataSource Type Text
+0TCTDATATYP_TEXT,A,TEXT,TCT-MON-IO,,,D,RSREQUTYPE,ROTEXTSTR1,DDIC,07.01.2025,22:45:59,Data Type,Data Type,"Data Type (Transaction Data, Master Data, Texts, Hier.)"
+0TCTDATATYP_TEXT,D,TEXT,TCT-MON-IO,,,D,RSREQUTYPE,ROTEXTSTR1,SAP,18.07.2012,14:01:15,Data Type,Data Type,"Data Type (Transaction Data, Master Data, Texts, Hier.)"
+0TCTPRCSTYP_TEXT,A,TEXT,TCT,,,V,RSPROCESSTYPEST,RSO_S_EXTR_0TCTPRCSTYP_TEXT,DDIC,07.01.2025,22:46:08,Process type - Text,Process type - Text,BW Meta Data: Process type - Text
+0TCTPRCSTYP_TEXT,D,TEXT,TCT,,,V,RSPROCESSTYPEST,RSO_S_EXTR_0TCTPRCSTYP_TEXT,SAP,09.06.2010,15:50:21,Process type - Text,Process type - Text,BW Meta Data: Process type - Text
+0TCTPRCSTAT_TEXT,A,TEXT,TCT,,,D,RSPC_STATE,ROTEXTSTR1,DDIC,07.01.2025,22:46:08,Process Status,Process Status Text,Process Status Text
+0TCTPRCSTAT_TEXT,D,TEXT,TCT,,,D,RSPC_STATE,ROTEXTSTR1,SAP,09.06.2010,15:50:21,Process Status,Process Status Text,Process Status Text
+0CB_DS_TEXT,D,TEXT,0BCT_CB_IO,,,V,RSOLTPSOURCET,ROXB520124,SAP,13.04.2011,15:56:18,DataSource Text,DataSource Text,DataSource Text
+0TCTDSOURC_TEXT,A,TEXT,TCT,,,V,RSOLTPSOURCET,RSOLTPSOURCET,DDIC,07.01.2025,22:46:01,DataSource,DataSource,BW Metadata: DataSource
+0TCTDSOURC_TEXT,D,TEXT,TCT,,,V,RSOLTPSOURCET,RSOLTPSOURCET,SAP,18.07.2012,14:01:16,DataSource,DataSource,BW Metadata: DataSource
+0TCTDSOURC_ATTR,A,ATTR,TCT-MON-IO,,,V,RSOLTPSOURCE,RSOLTPSOURCE,DDIC,07.01.2025,22:46:00,DataSource (Attr.),Attributes for DataSource,Attributes for DataSource
+0TCTDSOURC_ATTR,D,ATTR,TCT-MON-IO,,,V,RSOLTPSOURCE,RSOLTPSOURCE,SAP,18.07.2012,14:01:16,DataSource (Attr.),Attributes for DataSource,Attributes for DataSource
+0TCTOBJVERS_TEXT,A,TEXT,TCT,,,D,RSOBJVERS,ROTEXTSTR1,DDIC,07.01.2025,22:46:06,Object Version,Object Version,BW Metadata: Object Version
+0TCTOBJVERS_TEXT,D,TEXT,TCT,,,D,RSOBJVERS,ROTEXTSTR1,SAP,18.07.2012,14:01:29,Object Version,Object Version,BW Metadata: Object Version
+0TCTLPRO_ATTR,A,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA_WRK_SP,RSO_S_EXTR_0TCTLPRO_ATTR,DDIC,07.01.2025,22:46:06,BW Object,BW Object,BW Workspace Meta Data: BW Transient Providers Attributes
+0TCTLPRO_ATTR,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA_WRK_SP,RSO_S_EXTR_0TCTLPRO_ATTR,SAP,18.07.2012,14:26:22,BW Object,BW Object,BW Workspace Meta Data: BW Transient Providers Attributes
+0TCTLPRO_TEXT,A,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA_WRK_SP,RSO_S_EXTR_0TCTLPRO_TEXT,DDIC,07.01.2025,22:46:06,BW Object,BW Object,BW Workspace Meta Data: BW Transient Providers Text
+0TCTLPRO_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA_WRK_SP,RSO_S_EXTR_0TCTLPRO_TEXT,SAP,18.07.2012,14:26:22,BW Object,BW Object,BW Workspace Meta Data: BW Transient Providers Text
+0TCTWSP_ATTR,A,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA_WRK_SP,RSO_S_EXTR_0TCT_WSP,DDIC,07.01.2025,22:46:17,BW Object,BW Object,BW Workspace Meta Data: BW Object - Attributes
+0TCTWSP_ATTR,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA_WRK_SP,RSO_S_EXTR_0TCT_WSP,SAP,18.07.2012,14:26:23,BW Object,BW Object,BW Workspace Meta Data: BW Object - Attributes
+0TCTWSP_TEXT,A,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA_WRK_SP,RSO_S_EXTR_WSP_TEXT,DDIC,07.01.2025,22:46:17,BW Object,BW Object,BW Meta Data: BW Object - Workspace Text
+0TCTWSP_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA_WRK_SP,RSO_S_EXTR_WSP_TEXT,SAP,18.07.2012,14:26:24,BW Object,BW Object,BW Meta Data: BW Object - Workspace Text
+0TCTAGGREG,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTAGGREG,SAP,18.07.2012,14:01:09,Aggregate,Aggregate,BW Metadata: Aggregate
+0TCTAGGREG_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:10,Aggregates,Aggregates,BW Metadata - Aggregates
+0TCTAPPL,A,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTAPPL,DDIC,07.01.2025,22:45:53,Appl. component,Application Component,BW Metadata: Application Component
+0TCTAPPL,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTAPPL,SAP,18.07.2012,14:01:11,Appl. component,Application Component,BW Metadata: Application Component
+0TCTAPPL_TEXT,A,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,DDIC,07.01.2025,22:45:56,Appl. component,Application Component,BW Metadata: Application Component
+0TCTAPPL_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:11,Appl. component,Application Component,BW Metadata: Application Component
+0TCTBWOBJCT_ATTR,A,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTBWOBJCT,DDIC,07.01.2025,22:45:57,BW Object,BW Object,BW Meta Data: BW Object - Attributes
+0TCTBWOBJCT_ATTR,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTBWOBJCT,SAP,09.06.2010,15:50:04,BW Object,BW Object,BW Meta Data: BW Object - Attributes
+0TCTBWOBJCT_TEXT,A,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,DDIC,07.01.2025,22:45:57,BW Object,BW Object,BW Meta Data: BW Object - Text
+0TCTBWOBJCT_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,09.06.2010,15:50:05,BW Object,BW Object,BW Meta Data: BW Object - Text
+0TCTCOMSTRU,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTCOMSTRU,SAP,18.07.2012,14:01:13,Comm. Struct.,Communication structure,BW Metadata: Communication Structure
+0TCTCOMSTRU_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:13,Comm. Struct.,Communication Structure,BW Metadata: Communication Structure
+0TCTCURTRAN,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTCURTRAN,SAP,18.07.2012,14:01:14,Cur. translation,Currency Translation Type,BW Metadata: Currency Translation Type
+0TCTCURTRAN_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:14,Cur. translation,Currency Translation Type,BW Metadata: Currency Translation Type
+0TCTIFAREA,A,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTIFAREA,DDIC,07.01.2025,22:46:03,InfoArea,InfoArea,BW Metadata: InfoArea
+0TCTIFAREA,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTIFAREA,SAP,18.07.2012,14:01:17,InfoArea,InfoArea,BW Metadata: InfoArea
+0TCTIFAREA_TEXT,A,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,DDIC,07.01.2025,22:46:04,InfoArea,InfoArea,BW Metadata: InfoArea
+0TCTIFAREA_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:18,InfoArea,InfoArea,BW Metadata: InfoArea
+0TCTIFCUBE,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTIFCUBE,SAP,18.07.2012,14:01:18,InfoCube,InfoCube,BW Metadata: InfoCube
+0TCTIFCUBE_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:19,InfoCube,InfoCube,BW Metadata: InfoCube
+0TCTIFSET,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTIFSET,SAP,18.07.2012,14:01:19,InfoSet,InfoSet,BW Metadata: InfoSet
+0TCTIFSETQ,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTIFSETQ,SAP,18.07.2012,14:01:20,InfoSet Query,InfoSet Query,BW Metadata: InfoSet Query
+0TCTIFSETQ_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:21,InfoSet Query,InfoSet Query,BW Metadata: InfoSet Query
+0TCTIFSET_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:21,InfoSet,InfoSet,BW Metadata: InfoSet
+0TCTIGRID,A,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTIGRID,DDIC,07.01.2025,22:46:04,InfoPackage Group,InfoPackage Group,BW Metadata: InfoPackage Group
+0TCTIGRID,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTIGRID,SAP,18.07.2012,14:01:22,InfoPackage Group,InfoPackage Group,BW Metadata: InfoPackage Group
+0TCTIGRID_TEXT,A,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,DDIC,07.01.2025,22:46:04,InfoPackage Group,InfoPackage Group,BW Metadata: InfoPackage Group
+0TCTIGRID_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:22,InfoPackage Group,InfoPackage Group,BW Metadata: InfoPackage Group
+0TCTIOBJCAT,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTIOBJCAT,SAP,18.07.2012,14:01:23, InfoObject Catalog, InfoObject Catalog,BW Metadata: InfoObject Catalog
+0TCTIOBJCAT_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:23, InfoObject Catalog, InfoObject Catalog,BW Metadata:  InfoObject Catalog
+0TCTIOBJNM,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTIOBJNM,SAP,18.07.2012,14:01:24,InfoObject,InfoObject,BW Metadata: InfoObject
+0TCTIOBJNM_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:25,InfoObject - Texts,InfoObject - Texts,BW Metadata: InfoObject - Texts
+0TCTIPAKID,A,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTIPAKID,DDIC,07.01.2025,22:46:05,InfoPackage,InfoPackage,BW Metadata: InfoPackage
+0TCTIPAKID,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTIPAKID,SAP,18.07.2012,14:01:26,InfoPackage,InfoPackage,BW Metadata: InfoPackage
+0TCTIPAKID_TEXT,A,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,DDIC,07.01.2025,22:46:05,InfoPackage,InfoPackage,BW Metadata: InfoPackage
+0TCTIPAKID_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:26,InfoPackage,InfoPackage,BW Metadata: InfoPackage
+0TCTISOURC,A,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTISOURC,DDIC,07.01.2025,22:46:05,InfoSource,InfoSource,BW Metadata: InfoSource
+0TCTISOURC,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTISOURC,SAP,18.07.2012,14:01:27,InfoSource,InfoSource,BW Metadata: InfoSource
+0TCTISOURC_TEXT,A,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,DDIC,07.01.2025,22:46:05,InfoSource,InfoSource,BW Metadata: InfoSource
+0TCTISOURC_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:27,InfoSource,InfoSource,BW Metadata: InfoSource
+0TCTMAPPING,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTMAPING,SAP,18.07.2012,14:01:28,Transfer Rules,Transfer Rules,BW Metadata: Transfer Rules
+0TCTMAPPING_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:28,Transfer Rules,Transfer Rules,BW Metadata: Transfer Rules
+0TCTODS,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTODS,SAP,18.07.2012,14:01:29,ODS,ODS,BW Metadata: ODS
+0TCTODS_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:30,ODS,ODS,BW Metadata: ODS
+0TCTOPENHUB_ATTR,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTOPENHUB,SAP,09.06.2010,15:50:19,Open Hub Destination,Open Hub Destination,BW Meta Data: Open Hub Destination - Attributes
+0TCTOPENHUB_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,09.06.2010,15:50:20,Open Hub Destination,Open Hub Destination-Text,BW Meta Data: Open Hub Destination - Text
+0TCTPRCSCHN_ATTR,A,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTPRCSCHN,DDIC,07.01.2025,22:46:07,Process Chain,Process Chain,BW Meta Data: Process Chain - Attributes
+0TCTPRCSCHN_ATTR,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTPRCSCHN,SAP,09.06.2010,15:50:20,Process Chain,Process Chain,BW Meta Data: Process Chain - Attributes
+0TCTPRCSCHN_TEXT,A,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,DDIC,07.01.2025,22:46:07,Process Chain - Text,Process Chain - Text,BW Meta Data: Process Chain - Text
+0TCTPRCSCHN_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,09.06.2010,15:50:21,Process Chain - Text,Process Chain - Text,BW Meta Data: Process Chain - Text
+0TCTPRCSVAR_ATTR,A,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTPRCSVAR,DDIC,07.01.2025,22:46:08,Process Variant-Attr,Process Variant-Attribute,BW Meta Data: Process Variant-Attribute
+0TCTPRCSVAR_ATTR,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTPRCSVAR,SAP,09.06.2010,15:50:21,Process Variant-Attr,Process Variant-Attribute,BW Meta Data: Process Variant-Attribute
+0TCTPRCSVAR_TEXT,A,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,DDIC,07.01.2025,22:46:09,Process Variant -Txt,Process Variant - Text,BW Meta Data: Process Variant - Text
+0TCTPRCSVAR_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,09.06.2010,15:50:22,Process Variant -Txt,Process Variant - Text,BW Meta Data: Process Variant - Text
+0TCTQUERID,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTQUERID,SAP,18.07.2012,14:01:31,Query,Query,BW Metadata: Query and Query Elements
+0TCTQUERID_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:32,Query,Query,BW Metadata: Query and Query Elements
+0TCTQUERY,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTQUERY,SAP,18.07.2012,14:01:33,Query,Query,BW Metadata: Query and Query Elements
+0TCTQUERY_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:33,Query,Query,BW Metadata: Query and Query Elements
+0TCTRAP,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTRAP,SAP,18.07.2012,14:01:34,RA - Packet,Reporting Agent - Packet,Reporting Agent - Packet
+0TCTRAP_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:34,RA Packet,Reporting Agent - Packet,Reporting Agent - Packet
+0TCTRAS,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTRAS,SAP,18.07.2012,14:01:35,RA Settings,Reporting Agent - Settings,BW Metadata: Reporting Agent - Settings
+0TCTRAS_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:36,RA Settings,Reporting Agent - Settings,BW Metadata: Reporting Agent - Settings
+0TCTROLE,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTROLE,SAP,18.07.2012,14:01:37,Role,Role,BW Metadata: Role
+0TCTROLE_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:37,Role,Role,BW Metadata: Role
+0TCTROUTINE,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTROUTINE,SAP,18.07.2012,14:01:38,ABAP Routine,ABAP Routine,BW Metadata: ABAP Routine
+0TCTROUTINE_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:38,ABAP Routine,ABAP Routine,BW Metadata: ABAP Routine
+0TCTRRC,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTRRC,SAP,18.07.2012,14:01:39,RRI InfoCube,RRI InfoCube,BW Metadata: Report/Report Interface InfoCube
+0TCTRRC_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:40,RRI InfoCube,RRI InfoCube,BW Metadata: Report/Report Interface InfoCube
+0TCTRRQ,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTRRQ,SAP,18.07.2012,14:01:41,RRI Query,RRI Query,BW Metadata: Report/Report Interface Query
+0TCTRRQ_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:41,RRI Query,RRI Query,BW Metadata: Report/Report Interface Query
+0TCTSOURSYS_TEXT,A,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,DDIC,07.01.2025,22:46:10,Source System,Source System,BW Metadata: Source System
+0TCTSOURSYS_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:43,Source System,Source System,BW Metadata: Source System
+0TCTSYSID,A,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTSYSID,DDIC,07.01.2025,22:46:12,BW System,BW System,BW Metadata: BW System
+0TCTSYSID,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTSYSID,SAP,18.07.2012,14:01:44,BW System,BW System,BW Metadata: BW System
+0TCTSYSID_TEXT,A,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,DDIC,07.01.2025,22:46:12,BW System,BW System,BW Metadata: BW System
+0TCTSYSID_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:44,BW System,BW System,BW Metadata: BW System
+0TCTTRANSRV_ATTR,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTTRANSRV,SAP,09.06.2010,15:50:32,Transformation Servi,BW MetaData: Transformation Services Att,BW MetaData: Transformation Services Attr
+0TCTTRANSRV_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,09.06.2010,15:50:33,Transformation Servi,BW MetaData: Transformation Services Txt,BW MetaData: Transformation Services Text
+0TCTTRANSTR,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTTRANSTR,SAP,18.07.2012,14:01:45,Transfer structure,Transfer structure,BW Metadata - Transfer Structure
+0TCTTRANSTR_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:46,Transfer structure,Transfer structure,BW Metadata - Transfer Structure
+0TCTUPDR,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTUPDR,SAP,18.07.2012,14:01:47,Update Rule,Update rules,BW Metadata: Update Rules
+0TCTUPDR_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:47,Update Rule,Update rules,BW Metadata: Update Rules
+0TCTUSERNM,A,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTUSERNM,DDIC,07.01.2025,22:46:14,User,User,BW Metadata: User
+0TCTUSERNM,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTUSERNM,SAP,18.07.2012,14:01:48,User,User,BW Metadata: User
+0TCTUSERNM_TEXT,A,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,DDIC,07.01.2025,22:46:14,User,User,BW Metadata: User
+0TCTUSERNM_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:48,User,User,BW Metadata: User
+0TCTWEBITEM_ATTR,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTWEBITEM,SAP,09.06.2010,15:50:35,BW Meta Data: Data S,BW Meta Data: Data Source for Web Item-A,BW Meta Data: Data Source for Web Item-Attribute
+0TCTWEBITEM_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,09.06.2010,15:50:36,Web Item-Text,Web Item-Text,BW Meta Data: Web Item-Text
+0TCTWEBTMPL_ATTR,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTWEBTMPL,SAP,09.06.2010,15:50:36,Web Template Attr,Web Template-Attribute,BW MetaData: Web Template-Attribute
+0TCTWEBTMPL_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,09.06.2010,15:50:37,Web Template - Text,Web Template - Text,BW Meta Data: Web Template - Text
+0TCTWORKBK,D,ATTR,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_0TCTWORKBK,SAP,18.07.2012,14:01:50,Workbook,Workbook,BW Metadata: Workbook
+0TCTWORKBK_TEXT,D,TEXT,TCT,,,F1,RSO_GET_MASTER_DATA,RSO_S_EXTR_TEXT,SAP,18.07.2012,14:01:50,Workbook,Workbook,BW Metadata: Workbook
+0TCTASCTYPE_TEXT,D,TEXT,TCT,,,D,RSO_ASC_TYPE,ROTEXTSTR1,SAP,18.07.2012,14:01:12,Association Type,Association Type,BW Metadata: Association Type
+0RT_RSL_ACCOUNT_TEXT,D,TEXT,IS-R-IO,,,V,RSLBCT_C_AC_T,WRSL_ACCOUNT,SAP,23.01.2007,10:18:08,Stock Ledger Account,Stock Ledger Account,Stock Ledger Account
+0CB_IS_TEXT,D,TEXT,0BCT_CB_IO,,,V,RSIST,ROXB520122,SAP,13.04.2011,15:56:21,InfoSource Text,InfoSource Text,InfoSource Text
+0IQM_PROC_DTPT,D,TEXT,0VERIFICATION,NEWE,X,V,RSIQMX_V_DTPT,RSIQMX_DTPT,SAP,18.07.2012,14:01:04,IQM Process from DTP,IQM Process from DTP - Texts,Process from DTP - Texts (Information Quality)
+0IQM_PROC_DTP,D,ATTR,0VERIFICATION,NEWE,X,V,RSIQMX_V_DTP,RSIQMX_DTP,SAP,18.07.2012,14:01:03,IQM Process from DTP,IQM Process from DTP,Process from DTP (Information Quality)
+0IQM_SRCTYPE_TLOGOT,D,TEXT,0VERIFICATION,NEWE,X,F2,RSIQMX_EXTRACT_SRCTYPE_TEXT,RSIQMX_SRCTYPET,SAP,18.07.2012,14:01:05,IQM Source Obj. Type,IQM Source Object Type - Texts,Source Object Type - Texts (Information Quality)
+0IQM_REQUEST,D,ATTR,0VERIFICATION,NEWE,X,F2,RSIQMX_EXTRACT_REQUEST,RSIQMX_REQUEST,SAP,18.07.2012,14:01:04,IQM Inspection,IQM Inspection from Request,Inspection from Request (Information Quality)
+0TCTIOBJTP_TEXT,D,TEXT,TCT,,,D,RSIOBJTP,ROTEXTSTR1,SAP,18.07.2012,14:01:25,InfoObject type,InfoObject Type,BW Metadata: InfoObject Type
+0IQM_INSPT,D,TEXT,0VERIFICATION,NEWE,X,V,RSINSPT_DEL,RSIQMX_INSPT,SAP,18.07.2012,14:01:03,IQM Inspection Plan,IQM Inspection Plan - Texts,Inspektion Plan - Texts (Information Quality)
+0IQM_INSPCHECKT,D,TEXT,0VERIFICATION,NEWE,X,V,RSINSPCHECKT_DEL,RSIQMX_CHECKT,SAP,18.07.2012,14:01:02,IQM Check - Texts,IQM Check - Texts,Check - Texts (Information Quality)
+0IQM_INSPCHECK,D,ATTR,0VERIFICATION,NEWE,X,V,RSINSPCHECK_DEL,RSIQMX_CHECK,SAP,18.07.2012,14:01:01,IQM Check,IQM Check,Check (Information Quality)
+0IQM_SRCTECH_TLOGOT,D,TEXT,0VERIFICATION,,,D,RSINSP_INSP_SRC_TLOGO,ROTEXTSTR1,SAP,18.07.2012,14:01:05,IQM Source Obj. Tec.,IQM Source Object Technology - Texts,Source Object Technology - Texts (Information Quality)
+0SPAIN_LOPD_LOG_I,D,TRAN,0COUNTRY_SPAIN,AIE,,F1,RSECLOPD_LOG_EXTRACT_I,RSECLOPD_S_LOG_EXTRACT_I,SAP,18.07.2012,14:01:08,LOPD Logs - Itm Data,LOPD Logs - Item Data,LOPD Logs - Item Data
+0SPAIN_LOPD_LOG_H,D,TRAN,0COUNTRY_SPAIN,AIE,,F1,RSECLOPD_LOG_EXTRACT_H,RSECLOPD_S_LOG_EXTRACT_H,SAP,18.07.2012,14:01:08,LOPD Logs - Hdr Data,LOPD Logs - Header Data,LOPD Logs - Header Data
+0SPAIN_LOPD_LOG_F,D,TRAN,0COUNTRY_SPAIN,AIE,,F1,RSECLOPD_LOG_EXTRACT_F,RSECLOPD_S_LOG_EXTRACT_F,SAP,18.07.2012,14:01:07,LOPD Logs - Filter,LOPD Logs - Filter Data,LOPD Logs - Filter Data
+0LOPDIOTYP_TEXT,D,TEXT,0COUNTRY_SPAIN,,,D,RSECLOPD_IOBJTYPE,ROTEXTSTR1,SAP,18.07.2012,14:01:06,LOPD InfoObject Type,Texts for LOPD InfoObject Type,Texts for LOPD InfoObject Type
+0LOPDAUTH_TEXT,D,TEXT,0COUNTRY_SPAIN,,,D,RSECLOPD_AUTH_FLAG,ROTEXTSTR1,SAP,18.07.2012,14:01:06,Texts for Auth. Flag,Text Extractor - Authorization Flag,Text Extractor - Authorization Flag
+ZBW_DS_RSDIOBJ,A,TRAN,NEW_HIER_ROOT,,,V,RSDIOBJ,ZOXA4H0108,BEST,26.03.2025,22:38:52,gvygu,tfyt,hggvgh
+ZN_MIOBJ,A,ATTR,0BW_DATASOURCES,AIE,,V,RSDIOBJ,ZOXA4H0140,BEST,07.07.2025,15:23:21,infoobj data source,infoobj data source,full in delta
+Z_MTINOBJ,A,ATTR,NEW_HIER_ROOT,,,V,RSDIOBJ,ZOXA4H0113,BEST,24.03.2025,16:45:37,Master InfoObject,Master InfoObject DataSource,DataSource on Master InfoObjects Of BW.
+Z_NIRAV,A,ATTR,NEW_HIER_ROOT,AIE,,V,RSDIOBJ,ZOXA4H0115,BEST,26.03.2025,23:03:22,delta load,delta load,delta load
+0TCT_DS31,A,TRAN,TCT,NEWE,,F2,RSDDTZA2_STATIST_DATA,RSDDTZA_STATIST_EX,DDIC,07.01.2025,22:46:33,TREX Load,TREX Load,TREX Load
+0TCT_DS31,D,TRAN,TCT,NEWE,,F2,RSDDTZA2_STATIST_DATA,RSDDTZA_STATIST_EX,SAP,18.07.2012,14:01:51,TREX Load,TREX Load,TREX Load
+0TCT_DS32,A,TRAN,TCT,NEWE,,F2,RSDDTZA2_MEMORY_PER_INFOPROV,RSDDTZA2_MEM_PER_INFOPROV,DDIC,07.01.2025,22:46:33,BIA Stats: InfoProv,BIA Statistics: InfoProvider mem consp,BIA Statistics: InfoProvider memory consumption
+0TCT_DS32,D,TRAN,TCT,NEWE,,F2,RSDDTZA2_MEMORY_PER_INFOPROV,RSDDTZA2_MEM_PER_INFOPROV,SAP,09.06.2010,15:50:49,BIA Stats: InfoProv,BIA Statistics: InfoProvider mem consp,BIA Statistics: InfoProvider memory consumption
+0TCTSTEPTP_TEXT,D,TEXT,TCT,,,V,RSDDSTATSTEPTPT,RSTC_S_EXTR_STEPTP,SAP,09.06.2010,15:50:30,Step Type - Text,Step Type - Text,BW Meta Data: Step Type - Text
+0TCTHANDLTP_TEXT,D,TEXT,TCT,,,V,RSDDSTATHANDLTPT,RSTC_S_EXTR_HANDLTP,SAP,09.06.2010,15:50:10,Handle Type - Text,Handle Type - Text,BW Meta Data: Handle Type - Text
+0TCTSTATEVT_TEXT,D,TEXT,TCT,,,V,RSDDSTATEVENTST,RSTC_S_EXTR_STATEVT,SAP,09.06.2010,15:50:30,Event ID- Text,Event ID- Text,BW Meta Data: Event ID- Text
+0TCT_DS41,D,TRAN,TCT,AIE,,F1,RSDDSTAT_SEL_GET_DATA,RSDDSTATSLICEEX,SAP,21.03.2014,10:29:43,Sel. statisitic,Extraction of selection statistics,Extraction of selection statistics
+0TCT_DS42,D,TRAN,TCT,AIE,,F1,RSDDSTAT_DTA_GET_DATA,RSDDSTATDTASIZE,SAP,21.03.2014,10:05:16,DTA size,Extraction of DTA size,Extraction of DTA size
+0TCTWHMTFM_TEXT,A,TEXT,TCT,,,D,RSDDKWHMTFM,ROTEXTSTR1,DDIC,07.01.2025,22:46:16,Transfer Type WHM,Transfer Type (WHM),BW Statistics: Transfer Type (WHM)
+0TCTWHMTFM_TEXT,D,TEXT,TCT,,,D,RSDDKWHMTFM,ROTEXTSTR1,SAP,18.07.2012,14:01:49,Transfer Type WHM,Transfer Type (WHM),BW Statistics: Transfer Type (WHM)
+0TCTWHMMAN_TEXT,A,TEXT,TCT,,,D,RSDDKWHMMAN,ROTEXTSTR1,DDIC,07.01.2025,22:46:15,Posted Auto./Manual.,Posted Automatically or Manually,BW Statistics: Posted Automatically or Manually
+0TCTWHMMAN_TEXT,D,TEXT,TCT,,,D,RSDDKWHMMAN,ROTEXTSTR1,SAP,18.07.2012,14:01:49,Posted Auto./Manual.,Posted Automatically or Manually,BW Statistics: Posted Automatically or Manually
+0TCTRTIME_TEXT,D,TEXT,TCT,,,D,RSDDKOLAPRTIME,ROTEXTSTR1,SAP,18.07.2012,14:01:42,Time Category (OLAP),Time Category (OLAP),BW Statistics: Time Category (OLAP)
+0TCTRRECO_TEXT,D,TEXT,TCT,,,D,RSDDKOLAPRRECO,ROTEXTSTR1,SAP,18.07.2012,14:01:40,No. Category (OLAP),Number Category (OLAP),BW Statistics: Number Category (OLAP)
+0TCTOLAPRD_TEXT,D,TEXT,TCT,,,D,RSDDKOLAPRD,ROTEXTSTR1,SAP,18.07.2012,14:01:31,OLAP Read on Demand,OLAP Read on Demand,BW Statistics: OLAP Read on Demand On/Off
+0TCTOLAPACT_TEXT,D,TEXT,TCT,,,D,RSDDKOLAPACTION,ROTEXTSTR1,SAP,18.07.2012,14:01:30,Process Type OLAP,Process Type OLAP Processor,BW Statistics: Process Type OLAP Processor
+0TCTDBSELTP_TEXT,D,TEXT,TCT,,,D,RSDDKDBSELTP,ROTEXTSTR1,SAP,18.07.2012,14:01:15,Type of Data Read,Type of Data Read,BW Statistics: Type of Data Read from Database
+0BWTC_C02,D,TRAN,TCT,E,,F1,RSDDK_BIW_GET_DATA,RSDDK_S_EXTR_0BWTC_C02,SAP,18.07.2012,14:00:54,Transact. Data OLAP,Transaction Data OLAP,BW Statistics: Transaction Data OLAP
+0BWTC_C03,D,TRAN,TCT,E,,F1,RSDDK_BIW_GET_DATA,RSDDK_S_EXTR_0BWTC_C03,SAP,18.07.2012,14:00:54,Detail Navigation,Detail Navigation Step,"BW Statistics: Transact. Data OLAP, Detail Navigation Step"
+0BWTC_C04,D,TRAN,TCT,E,,F1,RSDDK_BIW_GET_DATA,RSDDK_S_EXTR_0BWTC_C04,SAP,18.07.2012,14:00:55,Transact.Data Aggr.,Transact.Data Aggregate,BW Statistics: Transact.Data Aggregate
+0BWTC_C05,D,TRAN,TCT,E,,F1,RSDDK_BIW_GET_DATA,RSDDK_S_EXTR_0BWTC_C05,SAP,18.07.2012,14:00:56,Transaction Data WHM,Transaction Data WHM,BW Statistics: Transaction Data WHM
+0BWTC_C09,D,TRAN,TCT,E,,F1,RSDDK_BIW_GET_DATA,RSDDK_S_EXTR_0BWTC_C09,SAP,18.07.2012,14:00:56,Condenser,BW Statistics: Condensing InfoCubes,BW Statistics: Condensing InfoCubes
+0BWTC_C11,D,TRAN,TCT,E,,F1,RSDDK_BIW_GET_DATA,RSDDK_S_EXTR_0BWTC_C11,SAP,18.07.2012,14:00:57,Deletion of InfoCube,Deletion of Data from InfoCube,BW Statistics: Transact.Data Deletion from InfoCube
+0TCT_DS21,A,TRAN,TCT,NEWE,,F1,RSDDK_BIW_GET_DATA,RSTC_S_EXTR_0TCT_EX21,DDIC,07.01.2025,22:46:26,Process Chain Stat.,Transaction Data Process Chain Statistic,BW Statistics: Transaction Data Process Chain Statistics
+0TCT_DS21,D,TRAN,TCT,NEWE,,F1,RSDDK_BIW_GET_DATA,RSTC_S_EXTR_0TCT_EX21,SAP,09.06.2010,15:50:45,Process Chain Stat.,Transaction Data Process Chain Statistic,BW Statistics: Transaction Data Process Chain Statistics
+0TCT_DS22,A,TRAN,TCT,NEWE,,F1,RSDDK_BIW_GET_DATA,RSTC_S_EXTR_0TCT_EX22,DDIC,07.01.2025,22:46:27,DTP Statistics,Transaction Data DTP Statistics,BW Statistics: Transaction Data DTP Statistics
+0TCT_DS22,D,TRAN,TCT,NEWE,,F1,RSDDK_BIW_GET_DATA,RSTC_S_EXTR_0TCT_EX22,SAP,09.06.2010,15:50:46,DTP Statistics,Transaction Data DTP Statistics,BW Statistics: Transaction Data DTP Statistics
+0TCT_DS23,A,TRAN,TCT,NEWE,,F1,RSDDK_BIW_GET_DATA,RSTC_S_EXTR_0TCT_EX23,DDIC,07.01.2025,22:46:28,InfoPackages,BW Statistics: InfoPackages,BW Statistics: Transaction Data InfoPackages
+0TCT_DS23,D,TRAN,TCT,NEWE,,F1,RSDDK_BIW_GET_DATA,RSTC_S_EXTR_0TCT_EX23,SAP,09.06.2010,15:50:47,InfoPackages,BW Statistics: InfoPackages,BW Statistics: Transaction Data InfoPackages
+0TCTAGGRST_TEXT,D,TEXT,TCT,,,D,RSDDAGGRST,ROTEXTSTR1,SAP,18.07.2012,14:01:10,Aggregation Level,Aggregation Level,BW Repository Metadata: Aggregation Level (Aggregate) Text
+0CB_IA_TEXT,D,TEXT,0BCT_CB_IO,,,V,RSDAREAT,ROXB520125,SAP,13.04.2011,15:56:19,InfoArea Text,InfoArea Text,InfoArea Text
+0RS_CHECKCAT_TEXT,D,TEXT,0BICONTENT_TOOLS,,,V,RSCONTENTCHECK_T,ROXBC90117,SAP,13.04.2011,15:56:26,Text Upload of CkCat,Check Category Test Upload,Check Category Test Upload
+0RS_PRIO_UPLOAD,D,ATTR,0BICONTENT_TOOLS,,,V,RSCONTENTCHECK_P,ROXBC90110,SAP,13.04.2011,15:56:27,Priority Data Upload,Priority Data - For Cont Tools,Priority Data - !! Internal Use Only !!
+0RS_MSGODS_DATASOURCE,D,TRAN,0BICONTENT_TOOLS,,,V,RSCONTENTCHECK_M,ROXBC90116,SAP,13.04.2011,15:56:26,Message Datasource,Message Datasource,Message Datasource
+0RS_TRANDATA_UPLOAD,D,TRAN,0BICONTENT_TOOLS,,,V,RSCONTENTCHECK,ROXBC90111,SAP,13.04.2011,15:56:27,Objects Data,Objects Data Datasource,Objects Data Datasource
+8ZAV_MDSO,A,TRAN,DM,ODS,,F1,RSBX_BIW_GET_ODSDATA,/BIC/CE8ZAV_MDSO,BEST,25.07.2025,07:52:58,,Material DSO,Material DSO
+8ZMRC2DSO,A,TRAN,DM,ODS,,F1,RSBX_BIW_GET_ODSDATA,/BIC/CE8ZMRC2DSO,BEST,11.06.2025,01:35:15,,zmrc2dso,zmrc2dso
+8ZTGLDSO,A,TRAN,DM,ODS,,F1,RSBX_BIW_GET_ODSDATA,/BIC/CE8ZTGLDSO,BEST,12.06.2025,17:05:38,,ztgldso,ztgldso
+8Z_DATA1,A,TRAN,DM,ODS,,F1,RSBX_BIW_GET_ODSDATA,/BIC/CE8Z_DATA1,BEST,06.06.2025,20:15:58,,,
+8Z_DATA2,A,TRAN,DM,ODS,,F1,RSBX_BIW_GET_ODSDATA,/BIC/CE8Z_DATA2,BEST,06.06.2025,00:37:58,,,
+80BPARTNERM,A,ATTR,DM-IO,,,F1,RSBX_BIW_GET_MASTER_DATA,/BIC/CE80BPARTNERM,BEST,05.02.2025,05:13:19,Business Partner,Business Partner,Business Partner
+80EMPLOYEEM,A,ATTR,DM-IO,,,F1,RSBX_BIW_GET_MASTER_DATA,/BIC/CE80EMPLOYEEM,BEST,05.09.2025,04:11:21,Employee,Employee,Employee
+80HRPOSITIONM,A,ATTR,DM-IO,,,F1,RSBX_BIW_GET_MASTER_DATA,/BIC/CE80HRPOSITIONM,BEST,05.02.2025,05:15:14,Position,Position,Position
+80JOBM,A,ATTR,DM-IO,,,F1,RSBX_BIW_GET_MASTER_DATA,/BIC/CE80JOBM,BEST,05.02.2025,05:15:21,Job,Job,Job
+80PERSONM,A,ATTR,DM-IO,,,F1,RSBX_BIW_GET_MASTER_DATA,/BIC/CE80PERSONM,BEST,05.02.2025,05:15:55,Person,Person,Person
+80PLANTM,A,ATTR,DM-IO,,,F1,RSBX_BIW_GET_MASTER_DATA,/BIC/CE80PLANTM,BEST,05.02.2025,05:16:01,Plant,Plant,Plant
+80RT_SEAROLLM,A,ATTR,DM-IO,,,F1,RSBX_BIW_GET_MASTER_DATA,/BIC/CE80RT_SEAROLLM,BEST,05.02.2025,05:17:11,Collection,Collection,Collection
+8NPAEMPLYEM,A,ATTR,DM-IO,,,F1,RSBX_BIW_GET_MASTER_DATA,/BIC/CE8NPAEMPLYEM,BEST,16.05.2025,03:34:33,Employee,Employee,Employee
+0TCTSUBSTEP_TEXT,A,TEXT,TCT,,,V,RSBKSUBSTEPT,RSTC_S_EXTR_SUBSTEP,DDIC,07.01.2025,22:46:11,DTP Sub-step text,BW Metadata: DTP Sub-Step text,BW Metadata: DTP Sub-Step text
+0TCTSUBSTEP_TEXT,D,TEXT,TCT,,,V,RSBKSUBSTEPT,RSTC_S_EXTR_SUBSTEP,SAP,09.06.2010,15:50:31,DTP Sub-step text,BW Metadata: DTP Sub-Step text,BW Metadata: DTP Sub-Step text
+0TCTPRSMODE_TEXT,D,TEXT,TCT,,,D,RSBKPROCESSMODE,ROTEXTSTR1,SAP,09.06.2010,15:50:22,Process mode Text,BW MetaData: Process Mode Text,BW MetaData: Process Mode Text
+0SPL_MTCID_TEXT,D,TEXT,0SPL_IO,,,V,RSBCTSDPR_MTCIDT,ROXB530109,SAP,23.04.2004,10:11:47,Texts Metric ID's,Texts Metric ID's,Texts for Metric ID's
+0SPL_MTCID_ATTR,D,ATTR,0SPL_IO,,,V,RSBCTSDPR_MTCID,ROXB530110,SAP,21.06.2004,15:34:06,Attributes Metric ID,Attributes Metric ID's,Attributes for Metric ID's
+0SPL_MTCCAT_TEXT,D,TEXT,0SPL_IO,,,V,RSBCTSDPR_MTCCTT,ROXB530107,SAP,23.04.2004,08:17:59,Texts Metric Cat.,Texts Metric Categories,Texts for Metric Categories
+0SPL_DLVTYP_TXT,D,TEXT,0SPL_IO,,,D,RSBCTSDPR_DOM_DELIVER_TYPE,ROTEXTSTR1,SAP,06.04.2005,16:00:26,Delivery Type,Delivery Type,Delivery Type
+0MA_TPID_2,D,TRAN,0MA_TRAFFIC-IO,AIE,,V,RSBCTMA_TPID,ROXCR30161,SAP,04.11.2002,15:52:57,Trading Partner,Trading Partner,"Trading Partner (Attributes, Texts)"
+0CB_ROLE_TEXT,D,TEXT,0BCT_CB_IO,,,V,RSBCTCB_RTXT_V,ROXB520121,SAP,13.04.2011,15:56:22,Role Text,Role Text,Role Text
+0CB_SVQ_TEXT,D,TEXT,0BCT_CB_IO,,,V,RSBCTCB_QRY_T_V,ROXB520127,SAP,13.04.2011,15:56:22,View's Source Text,View's Source Query Text,View's Source Query Text
+0CB_DS_ATTR,D,ATTR,0BCT_CB_IO,,,V,RSBCTCB_DS_ATT_V,ROXB520123,SAP,13.04.2011,15:56:18,DataSource Attribute,DataSource Attribute,DataSource Attribute
+0RT_PA_EVENT_TEXT,D,TEXT,0RT_PA-IO,NEWE,,V,RSBCT_RPA_V_EVT,RSBCT_RPA_V_EVT,SAP,27.05.2003,17:06:04,PA: Retail Event Txt,POS Analytics: Retail Event Texts,POS Analytics: Retail Event Texts
+0RT_PA_EVENT,D,ATTR,0RT_PA-IO,NEWE,,V,RSBCT_RPA_V_EV,RSBCT_RPA_V_EV,SAP,27.05.2003,17:06:03,PA: Retail Event,POS Analytics: Retail Event,POS Analytics: Retail Event
+0RT_NCOMP_TEXT,D,TEXT,IS-R-IO,,,D,RSBCT_MAP_NCOMP,ROTEXTSTR1,SAP,18.01.2003,00:32:38,Non-Comparable Ind.,Indicator for Non-Comparable Stores,Indicator for Non-Comparable Stores
+0RT_MDRELST_TEXT,D,TEXT,IS-R-IO,,,D,RSBCT_MAP_MDRELST,ROTEXTSTR1,SAP,13.12.2002,22:24:47,Rel.Stat.Master Data,Release Status of Master Data,Release Status of Master Data
+0RT_AVRELST_TEXT,D,TEXT,IS-R-IO,,,D,RSBCT_MAP_AVRELST,ROTEXTSTR1,SAP,13.12.2002,22:25:52,Rel.Stat.Assort.Ver.,Release Status of Assortment Version,Release Status of Assortment Version
+0TCTSOURSYS_ATTR,A,ATTR,TCT-MON-IO,,,V,RSBASIDOC,RSBASIDOC,DDIC,07.01.2025,22:46:09,Source System (Attr),Attributes for BW Source System,Attributes for BW Source System
+0TCTSOURSYS_ATTR,D,ATTR,TCT-MON-IO,,,V,RSBASIDOC,RSBASIDOC,SAP,18.07.2012,14:01:42,Source System (Attr),Attributes for BW Source System,Attributes for BW Source System
+0CMSKU_TEXT,D,TEXT,IS-R-IO,,,F1,RSAX_BIW_GET_SKU_DATA,BIW_SKU_TEXT,SAP,11.04.2002,14:38:00,SKU,SKU,SKU
+0VER_DATASOURCE_SEGM,D,SEGM,0VERIFICATION,,,FS,RSAX_BIW_GET_SEGM,ROVER_DATASOURCE,SAP,23.03.2006,11:48:04,Veri.: Segmented,Verification: Segmented Data,"Verification DataSource, Segmented Data"
+0SAPI_SFLIGHT_SIMPLE,D,TRAN,0VERIFICATION-DATA,,,F2,RSAX_BIW_GET_DATA_SIMPLE,SFLIGHT,SAP,05.03.2002,17:21:23,Template Extractor,DS Template for Funct. Module Extraction,DataSource Template for Function Module Extraction
+0CB_AC_TEXT,D,TEXT,0BCT_CB_IO,,,V,RSAPPLT,ROXB520126,SAP,13.04.2011,15:56:18,Application Co. Text,Application Component Text,Application Component Text
+0MDME_CAT_PUR_INTEGR,D,ATTR,0MDM,AIM,,F1,RSADSQ_INIT_STEP,MDME_CAT_PUR_INTEGR,SAP,07.09.2005,10:43:25,Pur. Cat. Integr.,Purchasing Cat. for BI Integration,Purchasing Category for BI Integration with MDM 5.5
+0MDME_CAT_PUR_INTEGR_TEXT,D,TEXT,0MDM,AIM,,F1,RSADSQ_INIT_STEP,MDME_CAT_PUR_INTEGR_TEXT,SAP,07.09.2005,10:43:27,Pur. Cat. Integr.,Purchasing Category for BI Integration,Purchasing Category Text for BI Integration with MDM 5.5
+0MDME_CUSTOM_CONS,D,ATTR,0MDM,AIM,,F1,RSADSQ_INIT_STEP,MDME_CUSTOM_CONS,SAP,07.09.2005,10:43:28,Cust. Consolidation,Customer for BI Consolidation,Customer for BI Consolidation with MDM 5.5
+0MDME_CUSTOM_CONS_TEXT,D,TEXT,0MDM,AIM,,F1,RSADSQ_INIT_STEP,MDME_CUSTOM_CONS_TEXT,SAP,07.09.2005,10:43:29,Cust. Consolidation,Customer for BI Consolidation,Customer Text for BI Consolidation with MDM 5.5
+0MDME_CUSTOM_INTEGR,D,ATTR,0MDM,AIM,,F1,RSADSQ_INIT_STEP,MDME_CUSTOM_INTEGR,SAP,07.09.2005,10:43:31,Cust. Integration,Customer for BI Integration,Customer for BI Integration with MDM 5.5
+0MDME_CUSTOM_INTEGR_TEXT,D,TEXT,0MDM,AIM,,F1,RSADSQ_INIT_STEP,MDME_CUSTOM_INTEGR_TEXT,SAP,07.09.2005,10:43:32,Cust. Integration,Customer for BI Integration,Customer Text for BI Integration with MDM 5.5
+0MDME_PRODUCT_CONS,D,ATTR,0MDM,AIM,,F1,RSADSQ_INIT_STEP,MDME_PRODUCT_CONS,SAP,07.09.2005,10:43:33,Prod. Consolidation,Product for BI Consolidation,Product for BI Consolidation with MDM 5.5
+0MDME_PRODUCT_CONS_TEXT,D,TEXT,0MDM,AIM,,F1,RSADSQ_INIT_STEP,MDME_PRODUCT_CONS_TEXT,SAP,07.09.2005,10:43:34,Prod. Consolidation,Product for BI Consolidation,Product Text for BI Consolidation with MDM 5.5
+0MDME_PRODUCT_INTEGR,D,ATTR,0MDM,AIM,,F1,RSADSQ_INIT_STEP,MDME_PRODUCT_INTEGR,SAP,07.09.2005,10:43:36,Product Integration,Product for BI Integration,Product for BI Integration with MDM 5.5
+0MDME_PRODUCT_INTEGR_TEXT,D,TEXT,0MDM,AIM,,F1,RSADSQ_INIT_STEP,MDME_PRODUCT_INTEGR_TEXT,SAP,07.09.2005,10:43:37,Product Integration,Product for BI Integration,Product Text for BI Integration with MDM 5.5
+0MDME_VENDOR_CONS,D,ATTR,0MDM,AIM,,F1,RSADSQ_INIT_STEP,MDME_VENDOR_CONS,SAP,07.09.2005,10:43:38,Vendor Consolidation,Vendor for BI Consolidation,Vendor for BI Consolidation with MDM 5.5
+0MDME_VENDOR_CONS_TEXT,D,TEXT,0MDM,AIM,,F1,RSADSQ_INIT_STEP,MDME_VENDOR_CONS_TEXT,SAP,07.09.2005,10:43:39,Vendor Consolidation,Vendor for BI Consolidation,Vendor Text for BI Consolidation with MDM 5.5
+0MDME_VENDOR_INTEGR,D,ATTR,0MDM,AIM,,F1,RSADSQ_INIT_STEP,MDME_VENDOR_INTEGR,SAP,07.09.2005,10:43:41,Vendor Integration,Integration Vendor for BI Integration,Vendor for BI Integration with MDM 5.5
+0MDME_VENDOR_INTEGR_TEXT,D,TEXT,0MDM,AIM,,F1,RSADSQ_INIT_STEP,MDME_VENDOR_INTEGR_TEXT,SAP,07.09.2005,10:43:42,Vendor Integration,Vendor for BI Integration,Vendor Text for BI Integration with MDM 5.5
+0TCTWHMACT_ATTR,D,ATTR,TCT,,,V,RSACTION2EVID,RSTC_S_EXTR_0TCTWHMACT,SAP,09.06.2010,15:50:37,WHM Action Types,BW Statistics: WHM Action Types,BW Statistics: WHM Action Types
+0MA_TRAFFIC_DOC_FLO,D,TRAN,0MA_TRAFFIC,ABR1,,F1,RSA3_GEN_GET_DATA,RSBCTMA_TRAFFIC_DOC_FLO,SAP,16.07.2001,14:59:24,Traffic DocumentFlow,Traffic Document Flow,Traffic Document Flow
+0SRM_GLS_CHANGE_ORDER,D,TRAN,0GLSPEND,AIM,,F1,RSA3_GEN_GET_DATA,RSBCTGLS_CH_ORDER_STRUC,SAP,04.11.2002,15:53:01,Purch. Order Change,Purchase Order Change,DataSource for Purchase Order Changes
+0SRM_GLS_INVOICE,D,TRAN,0GLSPEND,AIM,,F1,RSA3_GEN_GET_DATA,RSBCTGLS_INVOICE_STRUC,SAP,04.11.2002,15:53:04,Invoice,Invoice,DataSource for Invoices
+0SRM_GLS_ORDER,D,TRAN,0GLSPEND,AIM,,F1,RSA3_GEN_GET_DATA,RSBCTGLS_ORDER_STRUC,SAP,04.11.2002,15:53:06,Purchase Order,Purchase Order,DataSource for Purchase Orders
+0IQM_PROCTYP,D,TEXT,0VERIFICATION,,,D,RS_TCO_IQM_PROCESS_TYPE,ROTEXTSTR1,SAP,18.07.2012,14:01:03,IQM Process Type,IQM Process Type - Texts,Process Type - Texts (Information Quality)
+0IQM_INSPCTT,D,TEXT,0VERIFICATION,,,D,RS_TCO_IQM_INSPECTION_TYPE,ROTEXTSTR1,SAP,18.07.2012,14:01:02,IQM Inspection Type,IQM Inspection Type - Texts,Inspection Type (Information Quality)
+0TB_DEANALYSIS_ATTR,D,ATTR,0TB,,,F1,RS_TBBW_ODS15_ATTR,RSTBBW_STR_ODS15_XTR,SAP,27.07.2005,15:51:25,D&E Analysis,D&E Analysis,D&E Analysis
+0TB_ACCT_FRAME_ATTR,D,ATTR,0TB,AIE,,F1,RS_TBBW_ODS11_ATTR,RSTBBW_STR_ODS11_XTR,SAP,21.08.2003,12:20:36,Extractor:Acct Mast.,Extractor: Account Master,Extractor: Account Master
+0TB_ACCT_LIM_ATTR,D,ATTR,0TB,,,F1,RS_TBBW_ODS05_ATTR,RSTBBW_STR_ODS05_XTR,SAP,16.02.2003,18:50:44,Acct Master + Limit,Account Master Data and Limits,Account Master Data and Limits
+0TCTRQCSTA_TEXT,D,TEXT,TCT-MON-IO,,,D,RS_REQSTATUS,ROTEXTSTR1,SAP,18.07.2012,14:01:39,Request Status,Texts for Request Status in InfoCube,Texts for Status of Data Request in InfoCube
+0SPL_SFA_FILLC_TXT,D,TEXT,0SPL_IO,,,D,RS_BCT_SPL_SFA_DFILLC,ROTEXTSTR1,SAP,08.07.2005,16:48:23,SF Category,Service Fill Category,Service Fill Category
+0HR_PA_PA_1,D,TRAN,DM,,,F1,RS_BCT_PA_GET_DATA,RSBCTPA_0HR_PA_PA_1,SAP,27.02.2002,15:09:30,Headcount,Headcount,Headcount
+0CB_RF_HIER,D,HIER,0BCT_CB_IO,,,F1,RS_BCT_CB_RF_HIERARCHY_TRANSFE,ROSHIENODE,SAP,13.04.2011,15:56:22,Role Folder Hier.,Role Folder Hierarchy DataSource,Role Folder Hierarchy DataSource
+0CB_IS_HIER,D,HIER,0BCT_CB_IO,,,F1,RS_BCT_CB_IS_HIERARCHY_TRANSFE,ROSHIENODE,SAP,13.04.2011,15:56:21,InfoSource Hier.,InfoSource Hierarchies,InfoSource Hierarchies
+0CB_IP_HIER,D,HIER,0BCT_CB_IO,,,F1,RS_BCT_CB_IP_HIERARCHY_TRANSFE,ROSHIENODE,SAP,13.04.2011,15:56:19,InfoProvider Hier.,InfoProvider Hierarchies,InfoProvider Hierarchies
+0CB_WT_TEXT,D,TEXT,0BCT_CB_IO,,,F2,RS_BCT_CB_EXTRACT_WT_TEXT,RSBCTCB_WT_TXT,SAP,13.04.2011,15:56:23,Workbook/Templ. Text,Workbook/Template Text,Workbook/Template Text
+0CB_WT_ATTR,D,ATTR,0BCT_CB_IO,,,F2,RS_BCT_CB_EXTRACT_WT_ATTR,RSBCTCB_WT_ATTR,SAP,13.04.2011,15:56:23,WB/Tmpl Attribute,Workbook/Template Attribute,Workbook/Template Attribute
+0CB_VQ_TEXT,D,TEXT,0BCT_CB_IO,,,F2,RS_BCT_CB_EXTRACT_VQ_TEXT,RSBCTCB_VQ_TXT,SAP,13.04.2011,15:56:23,View/Query Text,View/Query Text,View/Query Text
+0CB_VQ_ATTR,D,ATTR,0BCT_CB_IO,,,F2,RS_BCT_CB_EXTRACT_VQ_ATTR,RSBCTCB_VQ_ATTR,SAP,13.04.2011,15:56:23,View/Query Attribute,View/Query Attribute,View/Query Attribute
+0CB_RFLD_TEXT,D,TEXT,0BCT_CB_IO,,,F2,RS_BCT_CB_EXTRACT_RF_TEXT,RSBCTCB_RFLD_TXT_EX,SAP,13.04.2011,15:56:21,Role Folder Text,Role Folder Text,Role Folder Text
+0CB_RFLD_ATTR,D,ATTR,0BCT_CB_IO,,,F2,RS_BCT_CB_EXTRACT_RF_ATTR,RSBCTCB_RF_ATTR,SAP,13.04.2011,15:56:21,Role Folder Attrib.,Role Folder Attributes,Role Folder Attributes
+0BCT_CB_1,D,TRAN,0BCT_CB,,,F2,RS_BCT_CB_EXTRACT_OBJRELS,RSBCTCB_OBJREL,SAP,13.04.2011,15:56:17,Content Browser: Rel,Content Browser: Object Relns.,Content Browser: Object Relationships
+0CB_IS_ATTR,D,ATTR,0BCT_CB_IO,,,F2,RS_BCT_CB_EXTRACT_IS_ATTR,RSBCTCB_IS_ATTR,SAP,13.04.2011,15:56:20,InfoSource Attribute,InfoSource Attribute,InfoSource Attribute
+0CB_IP_TEXT,D,TEXT,0BCT_CB_IO,,,F2,RS_BCT_CB_EXTRACT_IP_TEXT,RSBCTCB_IP_TXT,SAP,13.04.2011,15:56:20,InfoProvider Text,InfoProvider Text,InfoProvider Text
+0CB_IP_ATTR,D,ATTR,0BCT_CB_IO,,,F2,RS_BCT_CB_EXTRACT_IP_ATTR,RSBCTCB_IP_ATTR,SAP,13.04.2011,15:56:19,InfoProv Attribute,InfoProvider Attribute,InfoProvider Attribute
+0VER_TYPE_TEXT,D,TEXT,0VERIFICATION-TEXTS,,,V,ROVERTYPTV,ROXAX30209,SAP,19.09.2000,13:56:37,Texts for Test Type,Texts for Test Type in Verif. Scenario,Texts for Test Type in Verification Scenario
+0VER_REGION_TEXT,D,TEXT,0VERIFICATION-TEXTS,,,V,ROVERREGTV,ROXBS30017,SAP,28.03.2001,15:23:20,Region Texts,Region Texts in Verification Scenario,Region Texts in Verification Scenario
+0VER_REGION_TEXT_NEW,D,TEXT,0VERIFICATION-TEXTS,,,V,ROVERREGTV,ROXBS30017,SAP,16.08.2005,10:26:41,Region Texts,Region Texts in Verification Scenario,Region Texts in Verification Scenario
+0VER_REGION_ATTR,D,ATTR,0VERIFICATION-ATTRIBUTES,,,V,ROVERREGIV,ROXBS30019,SAP,28.03.2001,15:22:58,Attribute Region,Attribute Region Verification Scenario,Attribute Region in Verification Scenario
+0VER_REGION_ATTR_NEW,D,ATTR,0VERIFICATION-ATTRIBUTES,,,V,ROVERREGIV,ROXBS30019,SAP,16.08.2005,10:26:40,Attribute Region,Attribute Region Verification Scenario,Attribute Region in Verification Scenario
+0VER_FIELD_TEXT,D,TEXT,0VERIFICATION-TEXTS,,,V,ROVERFIETV,ROXBS30016,SAP,27.04.2004,20:02:30,Texts for Field No.,Texts for Field in Verification Scenario,Texts for Field Number in Verification Scenario
+0VER_FIELD_TEXT_NEW,D,TEXT,0VERIFICATION-TEXTS,,,V,ROVERFIETV,ROXBS30016,SAP,16.08.2005,10:26:40,Texts for Field No.,Texts for Field in Verification Scenario,Texts for Field Number in Verification Scenario
+0VER_FIELD_ATTR,D,ATTR,0VERIFICATION-ATTRIBUTES,A,,V,ROVERFIEAV,ROXBS30020,SAP,27.04.2004,20:02:26,Test Field,Test Field,Test Field in Verification Scenario
+0VER_FIELD_ATTR_NEW,D,ATTR,0VERIFICATION-ATTRIBUTES,A,,V,ROVERFIEAV,ROXBS30020,SAP,16.08.2005,10:26:38,Test Field,Test Field,Test Field in Verification Scenario
+0VER_CUSTOMER_TEXT,D,TEXT,0VERIFICATION-TEXTS,,,V,ROVERCUSTV,ROXAX30207,SAP,17.01.2006,14:30:57,Customer Texts,Customer Texts,Customer Texts in Verification Scenario
+0VER_CUSTOMER_TEXT_NEW,D,TEXT,0VERIFICATION-TEXTS,,,V,ROVERCUSTV,ROXAX30207,SAP,19.08.2005,19:29:18,Customer Texts,Customer Texts,Customer Texts in Verification Scenario
+0VER_CUSTOMER_ATTR,D,ATTR,0VERIFICATION-ATTRIBUTES,,,V,ROVERCUSAV,ROXAX30213,SAP,27.04.2004,20:02:26,Cust. in Ver. Scen.,Customer in Verification Scenario,Customer in Verification Scenario
+0VER_CUSTOMER_ATTR_NEW,D,ATTR,0VERIFICATION-ATTRIBUTES,,,V,ROVERCUSAV,ROXAX30213,SAP,16.08.2005,10:26:35,Cust. in Ver. Scen.,Customer in Verification Scenario,Customer in Verification Scenario
+0VER_CUBE_GENDELTA_DATE,D,TRAN,0VERIFICATION-DATA,AIE,,V,ROVERCUBE3V,ROXBS40385,SAP,23.08.2002,13:20:57,Generated Delta Date,Generated Delta by Date Field,Generated Delta by Date Field
+0VER_CUBE,D,TRAN,0VERIFICATION-DATA,,,V,ROVERCUBE2,ROXBS30062,SAP,27.04.2004,20:02:24,DS for ODS BWVo01,DS for ODS Object BWVO01,Verification Scenarios: DataSource for ODS 0BWVO01
+0VER_CUBE_NEW,D,TRAN,0VERIFICATION-DATA,,,V,ROVERCUBE2,ROXBS30062,SAP,16.08.2005,10:26:34,DS for ODS BWVO01,DS for ODS Object BWVO01,Verification Scenarios: DataSource for ODS 0BWVO01
+0VER_CUBE_GENDELTA,D,TRAN,0VERIFICATION-DATA,ADD,X,V,ROVERCUBE1,ROVERCUBE1,SAP,08.08.2005,10:40:45,Test Generic Delta,Test DataSource for Generic Delta,Test DataSource for Generic Delta
+0VER_CUBE_GENDELTA_MSD,D,ATTR,0VERIFICATION-ATTRIBUTES,,,V,ROVERCUBE1,ROXBS30074,SAP,22.02.2002,10:44:29,Test Generic Delta,Test DataSource for Generic Delta,DataSource Test for Generic Delta (Master Data)
+0VER_COUNTRY_TEXT,D,TEXT,0VERIFICATION-TEXTS,,,D,ROVERCOUNT,ROTEXTSTR1,SAP,06.03.2001,18:46:10,Country Key,Country Key in Verification Scenario,Country Key in Verification Scenario
+0VER_COUNTRY_TEXT_NEW,D,TEXT,0VERIFICATION-TEXTS,,,D,ROVERCOUNT,ROTEXTSTR1,SAP,16.08.2005,10:26:32,Country Indicator,Country Key in Verification Scenario,Country Key in Verification Scenario
+0CALDAY_ATTR,D,ATTR,,,,F2,RODPS_CALDAY_ATTR,RODPSDATE,SAP,18.05.2011,08:41:13,Calendar Day,Calendar Day for ODP,Calendar Day for ODP
+0AUD_ACTION,D,TRAN,0CA_AUDIT,AIMD,,F1,PLM_AUDIT_BW_TRANSACTIONALDATA,PLM_AUD_ACT,SAP,15.02.2005,15:55:27,Aud. Action Tr.Data,DataSource PLM Audit Action Trans. Data,DataSource PLM Audit Action Transaction Data
+0AUD_AUDIT,D,TRAN,0CA_AUDIT,AIMD,,F1,PLM_AUDIT_BW_TRANSACTIONALDATA,PLM_AUD_AUDIT,SAP,15.02.2005,15:56:22,Audit Trans. Data,DataSource PLM Audit Transaction Data,DataSource PLM Audit Transaction Data
+0AUD_OBJECT,D,TRAN,0CA_AUDIT,AIMD,,F1,PLM_AUDIT_BW_TRANSACTIONALDATA,PLM_AUD_OBJECT,SAP,07.12.2004,17:29:00,Aud. Obj. Trans.Data,Audit Object Transaction Data,DataSource PLM Audit Object Transaction Data
+0AUD_PLAN,D,TRAN,0CA_AUDIT,AIMD,,F1,PLM_AUDIT_BW_TRANSACTIONALDATA,PLM_AUD_PLAN,SAP,08.12.2004,16:20:28,Audit Plan Trans.Dat,DataSource PLM Audit Plan Trans. Data,DataSource PLM Audit Plan Transaction Data
+0AUD_QUEST,D,TRAN,0CA_AUDIT,AIMD,,F1,PLM_AUDIT_BW_TRANSACTIONALDATA,PLM_AUD_QUEST,SAP,15.02.2005,15:57:32,Audit Quest. Trans.,DataSource PLM Audit Quest. Trans. Data,DataSource PLM Audit Question Transaction Data
+0AUD_ROLE,D,TRAN,0CA_AUDIT,AIMD,,F1,PLM_AUDIT_BW_TRANSACTIONALDATA,PLM_AUD_ROLE,SAP,15.02.2005,16:04:24,DataSource Aud. Role,DataSource PLM Audit Role,DataSource PLM Audit Role
+0AUD_ACTION_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_ACT_DESC_TEXT,SAP,10.12.2004,12:27:29,Audit Action Text,DataSource Aud. Action Text Description,DataSource Audit Action Text Description
+0AUD_AUDIT_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_AUD_DESC_TEXT,SAP,10.12.2004,12:24:15,Audit Text,DataSource Audit Text,DataSource Audit Text
+0AUD_AUTH_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_AUTH_TEXT,SAP,07.12.2004,17:29:11,Auth. Group TXT,DataSource Audit Authorization Group Txt,DataSource Audit Authorization Group Txt
+0AUD_CAUSE_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_CAUSE_TEXT,SAP,07.12.2004,17:29:17,"Trigger, Text","DataSource AuditManagement Trigger, Text","DataSource Audit Management Trigger, Text"
+0AUD_EXT2_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_EXT2_TEXT,SAP,07.12.2004,17:30:26,Scoring Function,"Scoring Function, Text","DataSource Audit Scoring Function, Text"
+0AUD_HIELV_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_HIERA_TEXT,SAP,07.12.2004,17:30:47,Question List Item,Question List Item Hierarchy Profile Lev,DataSource Audit Question List Item Hierarchy Profile Level
+0AUD_OBJTY_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_OBJECT_TEXT,SAP,07.12.2004,17:30:55,Object AttributeType,Audit Object Attribute Type,DataSource Audit Management Object Attribute Type
+0AUD_OBJVA_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_OBJECT_VAL_TEXT,SAP,07.12.2004,17:31:07,Object AttributeVal.,Audit Object Attribute Value Text,DataSource Audit Object Attribute Value Text
+0AUD_PLAN_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_PLAN_DESC_TEXT,SAP,10.12.2004,12:22:18,Audit Plan Text,DataSource Audit Plan Text,DataSource Audit Plan Text
+0AUD_PRIOR_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_PRIOR_TEXT,SAP,07.12.2004,17:31:14,Question Prio. Text,DataSource Audit Question Priority Text,DataSource Audit Question Priority Text
+0AUD_QUESTION_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_QUEST_DESC_TEXT,SAP,10.12.2004,12:25:55,Audit Question Text,DataSource Audit Question Text,DataSource Audit Question Text
+0AUD_RATNG_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_RATING_TEXT,SAP,07.12.2004,17:31:23,Audit Rating Text,"DataSource Audit Rating, Text","DataSource Audit Rating, Text"
+0AUD_RATPR_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_RATING_PROF_TEXT,SAP,07.12.2004,17:31:32,Audit Rating Profile,"Audit Rating Profile, Text","DataSource Audit Rating Profile, Text"
+0AUD_RES_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_ASSES_RES_TEXT,SAP,14.12.2004,17:12:03,Valuation Selection,DataSource Question - Valuation Selectn,"DataSource Question - Valuation Selection, Text"
+0AUD_ROLE_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_ROLE_TEXT,SAP,07.12.2004,17:31:41,Audit Partner Role,"Audit Partner Role, Text","DataSource Audit Partner Role, Text"
+0AUD_SUG_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_ASSES_SUG_TEXT,SAP,14.12.2004,17:11:17,Valuation Proposal,DataSource Question - Valuation Proposal,"DataSource Question List - Valuation Proposal, Text"
+0AUD_TYPE_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_AUDTYPE_TEXT,SAP,07.12.2004,17:31:53,Audit Type Text,"Audit Management: Audit Type, Text","DataSource Audit Management Audit Type, Text"
+0AUD_VALPR_TEXT,D,TEXT,0CA_AUDIT,,,F1,PLM_AUDIT_BW_TEXT,PLM_AUD_ASSES_PROF_TEXT,SAP,07.12.2004,17:32:03,Quest.List Val.Prof.,"Question List - Valuation Profile, Text","DataSource Question List - Valuation Profile, Text"
+0AUD_ACTION_ATTR,D,ATTR,0CA_AUDIT,,,F1,PLM_AUDIT_BW_MASTERDATA,PLM_AUD_AUDACT_ATTR,SAP,15.02.2005,15:56:02,Audit Action,DataSource Audit Action Master Data,DataSource PLM Audit Action Master Data
+0AUD_AUDIT_ATTR,D,ATTR,0CA_AUDIT,,,F1,PLM_AUDIT_BW_MASTERDATA,PLM_AUD_AUDIT_ATTR,SAP,15.02.2005,15:56:44,DataSource Audit,DataSource PLM Audit,DataSource PLM Audit Master Data
+0AUD_PLAN_ATTR,D,ATTR,0CA_AUDIT,,,F1,PLM_AUDIT_BW_MASTERDATA,PLM_AUD_AUDPLAN_ATTR,SAP,15.02.2005,15:57:15,DataSource Aud. Plan,DataSource PLM Audit Plan,DataSource PLM Audit Plan Master Data
+0AUD_QUEST_ATTR,D,ATTR,0CA_AUDIT,,,F1,PLM_AUDIT_BW_MASTERDATA,PLM_AUD_AUDQUEST_ATTR,SAP,15.02.2005,16:04:08,DataSource Aud Quest,DataSource PLM Audit Quest. Master Data,DataSource PLM Audit Question Master Data
+0MDM_GENERIC,D,ATTR,BW_TECH,,,F1,MDE_BI_READ_DATA_NOTIFY,MDE_BI_DS_GENERIC,SAP,09.06.2010,15:49:58,MDM-BI: MDM Group ID,MDM-BI: Gen. Extr. of MDM Group ID,MDM-BI: Generic Extraction of MDM Group ID
+0IQM_BI_RESULTS,D,TRAN,0VERIFICATION,NEWE,X,F2,IQM_BI_EXTRACT_RESULTS,RSTCOIQM_S_BI_RESULTS,SAP,18.07.2012,14:01:01,BI Error Handling,BI Error Handling Results Aggregated,BI Error Handling Results Aggregated
+0IQM_BI_REQUEST,D,ATTR,0VERIFICATION,NEWE,X,F2,IQM_BI_EXTRACT_REQUEST,RSIQMX_REQUEST,SAP,18.07.2012,14:01:00,IQM Request,IQM Inspection from Req. with Error Log,Inspection from Request with Error Log (Information Quality)
+0_IGEL_TRANSP_TEST,A,TRAN,0ADD_SAP_SYSTEMS,,,Q,IGEL_T100,ROXBRS0200,BEST,15.05.2025,02:26:31,test transport,test transport,test transport
+0_IGEL_TRANSP_TEST,D,TRAN,0ADD_SAP_SYSTEMS,,,Q,IGEL_T100,ROXBRS0200,SAP,31.08.2000,13:34:28,test transport,test transport,test transport
+0FS_BP_TAXC_RSN_TEXT,D,TEXT,0FS_BP,,,V,FSBPCC_TAXCRSN_T,FSBPCC_TAXCRSN_T,SAP,27.09.2012,15:28:08,BP: TaxComp. Reasons,BP: Tax Compliance Status Reason Texts,Business Partner: Tax Compliance Status Reason Texts
+0FS_BP_TAXC_TEXT,D,TEXT,0FS_BP,,,V,FSBPCC_TAXC_T,FSBPCC_TAXC_T,SAP,27.09.2012,15:29:10,BP: TaxComp. Types,BP: Tax Compliance Type Texts,Business Partner: Tax Compliance Type Texts
+0FS_BP_TAXC_ST_TEXT,D,TEXT,0FS_BP,,,D,FSBP_TAXC_STATUS,ROTEXTSTR1,SAP,27.09.2012,15:28:36,BP: TaxComp. Status,BP: Tax Compliance Status Texts,Business Partner: Tax Compliance Status Texts
+0FS_BP_TAXC_AG_ST_TEXT,D,TEXT,0FS_BP,,,D,FSBP_TAXC_AGREE_STATUS,ROTEXTSTR1,SAP,27.09.2012,15:27:41,BP: TaxComp. Agr.St,BP: Tax Compliance Agree Status Texts,Business Partner: Tax Compliance Agreement Status Texts
+0EPM_DS_SALESORDER,D,TRAN,BW_TECH,,,V,EPM_V_SALES_DATA,ROXKIW0654,SAP,03.05.2016,12:26:26,EPM Sales Orders ODP,EPM Sales Orders ODP,EPM Sales Orders ODP
+0EPM_DS_SALES,D,TRAN,BW_TECH,,,V,EPM_V_SALES,ROXKIW0617,SAP,05.08.2015,14:11:00,EPM Sales Orders,EPM Sales Orders,EPM Sales Orders
+0EPM_PROD_TEXTE,D,TEXT,0EPM,AIE,,V,EPM_V_PROD_TXT,ROXBYD0029,SAP,01.10.2010,10:23:12,EPM Product Texts,EPM Product Texts,EPM Product Texts
+0EPM_PROD_TEXTS,D,TEXT,BW_TECH,,,V,EPM_V_PROD_TXT,ROXKIW0683,SAP,03.05.2016,12:28:59,Product Texts,Product Texts,Product Texts
+0EPM_PROD,D,ATTR,0EPM,AIE,,V,EPM_V_PROD,ROXBYD0025,SAP,01.10.2010,10:22:50,EPM Product,EPM Product,EPM Product
+0EPM_PRODUCT,D,ATTR,BW_TECH,,,V,EPM_V_PROD,ROXKIW0682,SAP,03.05.2016,12:29:35,Products,Products,Products
+0EPM_DS_CL_PO,D,TRAN,BW_TECH,,,V,EPM_V_PO_DATA,ROXKIW0684,SAP,03.05.2016,12:24:01,Closed Purchase Orde,Closed Purchase Orders,Closed Purchase Orders
+0EPM_DS_PO_ODP,D,TRAN,BW_TECH,,,V,EPM_V_PO_DATA,ROXKIW0655,SAP,03.05.2016,12:25:32,EPM Purchase Order,EPM Purchase Order ODP,EPM Purchase Order ODP
+0EPM_PO,D,TRAN,0EPM,AIE,,V,EPM_V_PO,ROXBYD0023,SAP,02.07.2010,14:36:26,EPM Purchase Order,EPM Purchase Order,EPM Purchase Order
+0EPM_BP,D,ATTR,0EPM,AIE,,V,EPM_V_BP,ROXBYD0024,SAP,02.07.2010,14:36:16,EPM BP,EPM Business Partner,EPM Business Partner
+0EPM_BPA,D,ATTR,BW_TECH,,,V,EPM_V_BP,ROXKIW0681,SAP,03.05.2016,12:22:35,Business Partners,Business Partners,Business Partners
+0EPM_EMPLOYEE_ORG_HIER,D,HIER,0EPM,,,F1,EPM_BW_EMP_ORG_HIER_EXTRACT,ROHIEROS,SAP,28.05.2010,14:35:45,EPM Employee Hierar.,EPM Hierarchy for Employees,EPM Hierarchy for Employees Through Organizational Structure
+0UCSTAQNO_TEXT,D,TEXT,IS-U,,,D,ECRM_STA_QUO,ROTEXTSTR1,SAP,04.11.2002,15:53:08,Contract Conclusion,Status:Contract Conclusion,Status: Quotation Added to Contract
+0UCSTA_QNT_TEXT,D,TEXT,IS-U,,,D,ECRM_STA_QNT,ROTEXTSTR1,SAP,04.11.2002,15:53:09,Status of Quantity,Status of Billing Quantity,Status of Billing Quantity (Open/Confirmed)
+0UCC_QUOOP_TEXT,D,TEXT,IS-U,,,D,ECRM_QUO_OPEN,ROTEXTSTR1,SAP,12.02.2004,14:04:12,Open Quotation,Open Quotation Exists,Open Quotation Exists
+0BP_TAXNUMB_ATTR,D,ATTR,0CA_BP-IO,AIM,,V,DFKKBPTAXNUM,BUPA_DFKKBPTAXNUM_BW,SAP,01.02.2005,08:22:32,BP: Tax Numbers,BP: Tax Numbers,BP: Tax Numbers
+0EPM_PO_OR_STAT_TEXT,D,TEXT,0EPM,,,D,D_PO_OR,ROTEXTSTR1,SAP,02.07.2010,14:37:22,PO Status,Purchase Order Status,Purchase Order Status
+0EPM_PO_LC_STAT_TEXT,D,TEXT,0EPM,,,D,D_PO_LC,ROTEXTSTR1,SAP,02.07.2010,14:37:18,Life Cycle Status,Life Cycle Status of Purchase Order,Life Cycle Status of Purchase Order
+0EPM_PO_CF_STAT_TEXT,D,TEXT,0EPM,,,D,D_PO_CF,ROTEXTSTR1,SAP,02.07.2010,14:37:14,Confirmation Status,Confirmation Status of Purchase Order,Confirmation Status of Purchase Order
+0EPM_PO_AP_STAT_TEXT,D,TEXT,0EPM,,,D,D_PO_AP,ROTEXTSTR1,SAP,02.07.2010,14:37:06,Approval Status,Approval Status of Purchase Order,Approval Status of Purchase Order
+0VER_DLVUNIT_TEXT,D,TEXT,0VERIFICATION-TEXTS,,,V,CVERS_REF,ROXBY30127,SAP,03.08.2010,22:12:39,Desc. of Soft. Comp.,Description of Software Component,Description of Software Component
+0VER_DLVUNIT_ATTR,D,ATTR,0VERIFICATION-ATTRIBUTES,,,V,CVERS,ROXBY30125,SAP,03.08.2010,22:11:20,Software Component,Software Component,Software Component
+0STAGENSYS0_TEXT,D,TEXT,0CA_GD-IO,,,F1,CRM_BW_GET_STATUS_T,CRM_BIW_ST_T,SAP,13.09.2004,10:16:19,Delivery:Syst.Status,Delivery: System Status Application-Ind.,Delivery: System Status Application-Independent
+0PR_STAPROSYS1_TEXT,D,TEXT,0CA_PR-IO,,,V,COMV_PROSYS1_BW,COMT_PROD_STATUSTEXT_BW,SAP,14.10.2003,12:17:56,Product: Lock,Product: Status Lock,Product: Status Lock
+0PR_STAPROSYS0_TEXT,D,TEXT,0CA_PR-IO,,,V,COMV_PROSYS0_BW,COMT_PROD_STATUSTEXT_BW,SAP,14.10.2003,12:14:29,Prod.: Arch./Delete,Product: Status Archive/Delete,Product: Status Archive/Delete
+0PR_ID_CMP_TEXT,D,TEXT,0CA_PR-IO,,,V,COMV_PRIDCMPT_BW,COMT_PRIDCMPT_BW,SAP,14.10.2003,12:11:16,Product ID,Product ID,Product ID: Texts (Compound InfoObject 0CRM_PRIDCP)
+0PR_COMPETITOR_PROD_TEXT,D,TEXT,0CA_PR-IO,,,V,COMV_PRCOMP_BW,COMT_PRCOMP_BW,SAP,14.10.2003,12:21:08,Competitive Product,Competitive Product,Competitive Product
+0PR_IL_RELTYPE_TEXT,D,TEXT,0CA_PR-IO,,,V,COMV_IL_TYPE_TBW,COMT_IL_TYPE_TBW,SAP,14.10.2003,12:07:08,Relationships,Relationships,Relationships
+0PR_TYPE_TEXT,D,TEXT,0CA_PR-IO,,,V,COMC_PR_TYPE_T,COMT_PR_TYPE_T_BW,SAP,14.10.2003,12:19:04,Texts for Prod. Type,Texts for Product Type,Texts for Product Type
+0PR_OBJECT_FAMILY_TEXT,D,TEXT,0CA_PR-IO,,,V,COMC_PR_OBJ_FAMT,COMT_PR_OBJ_FAMT_BW,SAP,14.10.2003,12:08:58,Prod.: Object Family,Product: Object Family,Product: Object Family
+0PR_GTIN_TYPE_TEXT,D,TEXT,0CA_PR-IO,,,V,COMC_GTINTYPE_T,COMC_GTINTYPE_T,SAP,14.10.2003,12:03:30,Texts on GTIN Type,Texts on GTIN Type,Texts on GTIN Type (Global Trade Identification Number)
+0PROD_CATEG_APPL_TEXT,D,TEXT,0CA_PR-IO,,,V,COMC_APPLT,COMC_APPLT,SAP,02.10.2003,08:56:14,ProdCat.: Hier.Appl.,Product Category: Hierarchy Application,Product Category: Hierarchy Application
+0PR_STATUS_ATTR,D,ATTR,0CA_PR-IO,AIM,,F1,COM_PROD_STATUS_EXTRACT_BW,COMT_PROD_STATUS_BW,SAP,01.02.2005,08:24:56,Product: Status,Product: Status,Product: Status
+0PRODUCT_TEXT,A,TEXT,0CA_PR-IO,AIM,,F1,COM_PR_PRSHTEXT,COMT_PROD_TEXT_BW,BEST,21.04.2025,23:53:25,Product: Texts,Product: Texts,Product: Texts
+0PRODUCT_TEXT,D,TEXT,0CA_PR-IO,AIM,,F1,COM_PR_PRSHTEXT,COMT_PROD_TEXT_BW,SAP,01.02.2005,08:23:14,Product: Texts,Product: Texts,Product: Texts
+0PR_PROD_VAR_ATTR,D,ATTR,0CA_PR-IO,AIM,,F1,COM_PR_PROD_VAR,COMT_PROD_VAR_BW,SAP,01.02.2005,08:24:28,Product: Var./Conf.,Product: Variants/Configuration,Product: Assignment Product Variant - Configurable Product
+0PR_GTIN_ATTR,D,ATTR,0CA_PR-IO,,,F1,COM_PR_PROD_GTIN,COMT_PROD_GTIN,SAP,14.12.2004,13:45:57,Product: GTIN,Product: GTIN,Product: GTIN
+0PR_CATEGORIES_ATTR,D,ATTR,0CA_PR-IO,,,F1,COM_PR_PROD_CATEG,COMT_PROD_CATEG,SAP,13.09.2004,16:26:44,Product: Categories,Product: Assigned Categories,Product: Assigned Categories
+0PRODUCT_ATTR,D,ATTR,0CA_PR-IO,AIM,,F1,COM_PR_COMM_PRODUCT,COMT_PRODUCT_BW,SAP,01.02.2005,08:23:03,Product: Gen. Attr.,Product: General Attributes,Product: General Attributes
+0PR_SALES_CATEG_ATTR,D,ATTR,0CA_PR-IO,AIM,,F1,COM_PR_CAT_SAL,COMV_PR_CAT_SAL,SAP,01.02.2005,08:25:11,Product: Sales Cat.,Product: Sales Category,Product: Sales Category
+0PR_PURCHASE_CATEG_ATTR,D,ATTR,0CA_PR-IO,AIM,,F1,COM_PR_CAT_PUR,COMV_PR_CAT_PUR,SAP,01.02.2005,08:24:41,Product: Purch.Cat.,Product: Purchasing Category,Product: Purchasing Category
+0PR_BASE_UNIT_ATTR,D,ATTR,0CA_PR-IO,AIM,,F1,COM_PR_BASE_UNIT,COMT_PR_UNIT_BW,SAP,01.02.2005,08:23:40,Product: Base UoM,Product: Base Unit of Measure,Product: Base Unit of Measure
+0PR_IL_RELDIR_TEXT,D,TEXT,0CA_PR-IO,,,D,COM_ILDIRECTION,ROTEXTSTR1,SAP,14.10.2003,12:05:00,Relationship Dir.,Relationship Direction,Relationship Direction
+0PR_COM_COMMERCIAL_ATTR,D,ATTR,0CA_PR-IO,AIM,,F1,COM_GENERIC_FULL_UPLOAD,SCOM_COMMERCIAL002,SAP,01.02.2005,08:23:59,Product: Comm. Data,Product: Commercial Data,Product: Commercial Data
+0PR_IL_PROREF_ATTR,D,ATTR,0CA_PR-IO,AIM,,F1,COM_GENERIC_FULL_UPLOAD,SCOMM_IL_PROREF,SAP,01.02.2005,08:24:12,Ref.Prod.for IObject,Reference Product for Individual Object,Reference Product for Individual Object
+0PROD_CATEG_TEXT,D,TEXT,0CA_PR-IO,,,F1,COBW_PROD_CATEG_GET_TEXT,STRUC_BIW_PROD_CATEG_TEXT,SAP,02.10.2003,16:48:00,Product Categories,Product Categories,Product Categories
+0PROD_CATEG_ATTR,D,ATTR,0CA_PR-IO,,,F1,COBW_PROD_CATEG_GET_ATTR,BWE_PROD_CATEG_ATTR,SAP,02.10.2003,16:47:46,Product Category,Product Category,Product Category
+0PROD_CATEG_R3_MAP_ATTR,D,ATTR,0CA_PR-IO,,,F1,COBW_PROD_CATEG_2_GET_ATTR,BWE_PROD_CATEG_2_ATTR,SAP,14.10.2003,11:52:53,ProdCat: R/3-Mat.Grp,Product Cat.: R/3 Attribute Material Grp,Product Category: R/3 Attribute Material Group
+0PRODUCT_HIER,D,HIER,0CA_PR-IO,,,F1,COBW_HIERARCHY_TRANSFER_PRCA,ROHIEROS,SAP,15.10.2003,14:48:22,Product Hierarchy,Product Hierarchy,Product Hierarchy
+0PROD_CATEG_HIER,D,HIER,0CA_PR-IO,,,F1,COBW_HIERARCHY_TRANSFER_PRCA,ROHIEROS,SAP,02.10.2003,08:56:18,Prod.Cat.Hierarchy,Product Category Hierarchy,Product Category Hierarchy
+0CMSKU_CDTH_CMHIER,D,HIER,IS-R-IO,,,F1,CMBW_HIERY_TRANSFER_CDTH,ROHIEROS,SAP,05.11.2001,19:53:51,CDT Extraction,CDT Extraction,Category Management: CDT Hierarchy Extractor
+0MATERIAL_CDTH_CMHIER,A,HIER,IS-R-IO,,,F1,CMBW_HIERY_TRANSFER_CDTH,ROHIEROS,BEST,20.03.2025,16:30:41,CDT Extraction,CDT Extraction,Category Management: CDT Hierarchy Extractor
+0MATERIAL_CDTH_CMHIER,D,HIER,IS-R-IO,,,F1,CMBW_HIERY_TRANSFER_CDTH,ROHIEROS,SAP,09.09.2002,13:52:15,CDT Extraction,CDT Extraction,Category Management: CDT Hierarchy Extractor
+0VER_SBOOK_TRAN,D,TRAN,0VERIFICATION-DATA,AIE,X,CO,CL_RODPS_DS_DB_CURSOR_FACTORY,ROXBYA0013,SAP,29.09.2010,14:49:58,Flight Booking,Single Flight Booking,Single Flight Booking (SBOOK Table)
+0CCMS_SLA_LIMIT_DBTAB,D,TRAN,PI_BASIS,,,V,CCMSBIAVLREPCF,CCMSBIAVLREPCF,SAP,18.07.2012,14:00:59,SLA Limits,Limits for CCMS Reporting (CPH Data),SLA Limits for CCMS Reporting (CPH Data)
+0CCMS_AVAIL_SETTINGS,D,TRAN,PI_BASIS,,,V,CCMSBIAVAILDOWNT,CCMSBIAVAILDOWNT,SAP,18.07.2012,14:00:58,Avail. Settings,Individual Availability Settings,Individual Availability Downtime and Limit Settings
+0CCMS_WEBAS_STATREC_DATA,D,SEGM,PI_BASIS,,,FS,CCMSBI_WEBAS_STATREC_EXTRACT,CCMSBI_WASTAT_EXTRSTR,SAP,19.04.2005,10:07:51,WebAS Kernel Stat.,WebAS Kernel Statistic Data,WebAS Kernel Statistic Data
+0CCMS_SYSDATA,D,TRAN,PI_BASIS,,,F2,CCMSBI_SYSDATA_EXTRACT,CCMSBI_SYSDATA_EXT_STR,SAP,17.11.2005,11:47:55,CCMS System Data,CCMS System Data,CCMS System Data
+0CCMS_SELOPTION,D,TEXT,PI_BASIS,,,F1,CCMSBI_SELOPTION_EXTRACT,CCMSBI_SELOPT_EXT_STR,SAP,18.07.2012,14:00:58,Selection Options,CCMS Selection Options,CCMS Selection Options for CPH and Statistics
+0CCMS_MTE_TDEP_MASTER_DATA,D,ATTR,PI_BASIS,AIE,,F1,CCMSBI_MTE_TIMEDEP_MD_EXTRACT,CCMSBI_MTE_TIMD_MD_EXT_STR,SAP,12.03.2004,11:26:39,CCMS: Time-Dep. MD,CCMS: MTE's Time-Dep. MD,CCMS: MTE's Time-Dependent Master Data
+0CCMS_MTE_STATIC_MASTER_DATA,D,ATTR,PI_BASIS,,,F2,CCMSBI_MTE_STATIC_MD_EXTRACTOR,CCMSBI_MTE_STAT_MD_EXT_STR,SAP,27.10.2003,11:30:17,CCMS: Static MD,CCMS: MTE's Static MD,CCMS: MTE's Static Master Data
+0CCMS_DSR_DATA,D,SEGM,PI_BASIS,,,FS,CCMSBI_DSR_EXTRACT,CCMSBI_DSR_EXTSTR,SAP,14.03.2006,17:34:28,DSR,DSR Statistics,Distributed Statistics Records
+0CCMS_DOWNTIMES,D,TRAN,PI_BASIS,,,F1,CCMSBI_DOWNTIMES_EXTRACTOR,CCMSBI_DOWNTIME,SAP,14.09.2007,13:33:08,Downtimes,CCMS: Planned Downtimes,CCMS: Planned Downtimes of a System
+0CCMS_CPH_LIFETIME_DATA,D,TRAN,PI_BASIS,,,F2,CCMSBI_CPH_REORGDATA_EXTRACTOR,CCMSBI_CPH_REORG_EXTRSTR,SAP,07.10.2003,16:48:41,CCMS: CPH Reorgdata,CCMS: CPH Reorganizations data,CCMS: CPH Reorganizations data
+0CCMS_CPH_ONLINE_DATA,D,TRAN,PI_BASIS,,,F1,CCMSBI_CPH_ONLINE_DATA_EXTR,CCMSBI_CPH_ONLINE_EXTRSTR,SAP,19.11.2003,09:32:48,CCMS:CPH Online Data,CCMS: Extraktor for CPH Online Data,CCMS: Extraktor for CPH Online Data
+0CCMS_CPH_DATA,D,TRAN,PI_BASIS,AIE,,F1,CCMSBI_CPH_DATA_EXTRACTOR,CCMSBI_CPH_EXTRACT_STRUCT,SAP,19.06.2005,20:47:32,CCMS: CPH Data,CCMS: Extraction of CPH Data,CCMS: DataSource for the Extraction of CPH Data
+0CCMS_CPH_DATA_COPY_700,D,TRAN,PI_BASIS,AIE,,F1,CCMSBI_CPH_DATA_EXTRACTOR,CCMSBI_CPH_EXTRACT_STRUCT,SAP,19.06.2005,20:38:59,CCMS:CPH Data,CCMS: Extraction of CPH Data (Copy),CCMS: DataSource for Extraction of CPH Data (Copy)
+0CCMS_CPH_DATA_DELTA_REPEAT,D,TRAN,PI_BASIS,,,F1,CCMSBI_CPH_DATA_DELTA_REPEAT,CCMSBI_CPH_EXTRACT_STRUCT,SAP,17.06.2005,17:35:28,CPH Data:DeltaRepeat,CPH Data: Delta Repeat Only,CPH Data: FULL Update DataSource That Executes Delta Repeat
+0CCMS_CPH_DATA_DELTA_INIT,D,TRAN,PI_BASIS,,,F1,CCMSBI_CPH_DATA_DELTA_INIT,CCMSBI_CPH_EXTRACT_STRUCT,SAP,19.06.2005,20:48:38,CPH Data: Delta Init,CPH Data: Delta Init Only,CPH Data: FULL Update DataSource That Executes Delta Init
+0CCMS_CPH_DATA_DELTA_ONLY,D,TRAN,PI_BASIS,,,F1,CCMSBI_CPH_DATA_DELTA,CCMSBI_CPH_EXTRACT_STRUCT,SAP,19.06.2005,20:51:21,CPH Data: Delta Only,CPH Data: Delta Only,CPH Data: FULL Update DataSource That Only Delivers Delta
+0CCMS_ASR_DATA,D,SEGM,PI_BASIS,,,FS,CCMSBI_ASR_EXTRACT,CCMSBI_ASR_EXTSTR,SAP,17.10.2006,15:04:07,ABAP Statistics Data,ABAP Stats Aggregates and Single Records,ABAP Statistics Aggregates and Single Records
+0CCMS_WEBAS_APPL_STATREC_DATA,D,SEGM,PI_BASIS,,,FS,CCMSBI_APPL_STATREC_EXTRACT,CCMSBI_WASTAT_EXTRSTR,SAP,23.01.2006,09:37:24,WebAs Applic. Stat.,WebAs Application Statistics Data,WebAs Application Statistics Data
+0REGION_TEXT,D,TEXT,0CA_GD-IO,,,V,BWV_T005U,BWE_T005U,SAP,24.06.2010,14:33:46,Region,Region,"Region (State, Province, County)"
+0COUNTRY_TEXT,D,TEXT,0CA_GD-IO,,,V,BWV_T005T,BWE_T005T,SAP,24.06.2010,14:33:13,Country,Country,Country
+0FS_BP_BANK_DATA,D,ATTR,0FS_BP,AIM,,V,BUT0BANK,BUT0BANK,SAP,11.01.2011,14:22:03,Bank Data,Business Partner: Bank Data,Business Partner: Bank Data
+0BP_UNAME_46C_ATTR,D,ATTR,0CA_BP-IO,,,F1,BUPA_UNAME_EXTRACT_BW_46C,BUS_BP_UNAME_BW_46C,SAP,28.08.2002,14:24:16,Obsolete,Obsolete -> 0BP_UNAME_ORGUNIT_ATTR,Obsolete -> Use 0BP_UNAME_ORGUNIT_ATTR
+0BP_UNAME_ORGUNIT_ATTR,D,ATTR,0CA_BP-IO,,,F1,BUPA_UNAME_EXTRACT_BW_46C,BUS_BP_UNAME_BW_46C,SAP,20.08.2003,08:34:57,BP: User/Org. Unit,BP: User Name/Organizational Unit,BP: User Name/Organizational Unit
+0BP_STATUS_ATTR,D,ATTR,0CA_BP-IO,AIM,,F1,BUPA_STATUS_EXTRACT_BW_KAPX,BUS_STATUS_BW_KAPX,SAP,01.02.2005,08:13:45,BP: Status,BP: Status,BP: Status
+0BP_RELTYPES_TEXT,D,TEXT,0CA_BP-IO,,,F1,BUPA_RELTP_TEXT_EXTRACT_BW,BUS_BP_RELTYPES_BW,SAP,28.08.2002,14:34:30,BP: Rel.Categories,BP: Relationship Categories,BP: Relationship Categories
+0BP_RELDIR_TEXT,D,TEXT,0CA_BP-IO,,,D,BUPA_RELDIR_BW,ROTEXTSTR1,SAP,28.08.2002,14:34:11,BP: Rel. Directions,BP: Directions of Relationships,BP: Directions of Relationships
+0BP_RELATIONS_ATTR,D,ATTR,0CA_BP-IO,AIM,,F1,BUPA_RELATIONS_EXTRACT_BW_D,BUS_BP_RELATIONS_BW_470,SAP,01.02.2005,16:11:53,BP: Relationships,BP: Relationships,BP: Relationships
+0BP_RELATIONS_470_ATTR,D,ATTR,0CA_BP-IO,AIM,,F1,BUPA_RELATIONS_EXTRACT_BW_470,BUS_BP_RELATIONS_BW_470,SAP,01.02.2005,08:22:04,Obsolete,Obsolete -> 0BP_RELATIONS_ATTR,Obsolete -> Use 0BP_RELATIONS_ATTR
+0BP_RELATIONS_46BC_ATTR,D,ATTR,0CA_BP-IO,E,,F1,BUPA_RELATIONS_EXTRACT_BW_46,BUS_BP_RELATIONS_BW_46BC,SAP,28.08.2002,14:33:05,Obsolete,Obsolete -> 0BP_RELATIONS_ATTR,Obsolete -> Use 0BP_RELATIONS_ATTR
+0BPARTNER_HIER,D,HIER,0CA_BP-IO,,,F1,BUPA_HIERARCHY_BW_TRANSFER,ROHIEROS,SAP,15.08.2003,13:27:53,SAP BP:Grp Hierarchy,SAP BP: Group Hierarchy,SAP BP: Group Hierarchy (for Current Date)
+0BPARTNER_NAME_HIER,D,HIER,0CA_BP-IO,,,F1,BUPA_HIERARCHY_BW_TRANSFER,ROHIEROS,SAP,15.08.2003,13:28:14,SAP-BP:Grp Hierarchy,SAP BP: Group Hierarchy,SAP BP: Group Hierarchy (Name Time-Dependent)
+0BPARTNER_STRUCT_HIER,D,HIER,0CA_BP-IO,,,F1,BUPA_HIERARCHY_BW_TRANSFER,ROHIEROS,SAP,15.08.2003,13:28:27,SAP BP:Grp Hierarchy,SAP BP: Group Hierarchy,SAP BP: Group Hierarchy (Structure Time-Dependent)
+0BP_GRP_HIER,D,HIER,0CA_BP-IO,,,F1,BUPA_HIERARCHY_BW_TRANSFER,ROHIEROS,SAP,15.08.2003,13:29:04,SAP BP:Grp Hierarchy,SAP BP: Group Hierarchy Without Partner,SAP BP: Group Hierarchy (for Current Date) Without Partner
+0BP_GRP_NAME_HIER,D,HIER,0CA_BP-IO,,,F1,BUPA_HIERARCHY_BW_TRANSFER,ROHIEROS,SAP,15.08.2003,13:28:53,SAP BP:Grp Hierarchy,SAP BP: Group Hierarchy Without Partner,SAP BP:Group Hierarchy (Name Time-Dependent) Without Partner
+0BP_GRP_STRUCT_HIER,D,HIER,0CA_BP-IO,,,F1,BUPA_HIERARCHY_BW_TRANSFER,ROHIEROS,SAP,15.08.2003,13:28:42,SAP BP:Grp Hierarchy,SAP BP: Group Hierarchy Without Partner,SAP BP:Group Hierarchy (Structure Time-Dep.) Without Partner
+0BP_DEF_ADDRESS_ATTR,D,ATTR,0CA_BP-IO,AIM,,F1,BUPA_DEF_ADDRESS_BW,BUS_PARTNER_ADDRESS_BW,SAP,01.02.2005,08:12:50,BP Standard Address,SAP BP: BP Standard Address Extraction,SAP BP: BP Standard Address Extraction
+0BPARTNER_TEXT,D,TEXT,0CA_BP-IO,AIM,,F1,BUPA_CENTRAL_TEXT_EXTRACT_BW,BUS_TEXT_BW,SAP,01.02.2005,08:11:04,BP Texts,BP Texts,SAP BP: DataSource for Business Partner Texts
+0BPARTNER_ATTR,D,ATTR,0CA_BP-IO,AIM,,F1,BUPA_CENTRAL_ATTR_EXTRACT_BW,BUS000_BW,SAP,11.07.2005,16:55:52,SAP BP: Central Data,SAP BP: BW Extraction Central Data,SAP BP: BW Extraction Central Data
+0BP_CCARD_ATTR,D,ATTR,0CA_BP-IO,AIM,,F1,BUPA_CCARD_EXTRACT_BW,BUS0CC_BW,SAP,01.02.2005,08:21:09,SAP BP: Credit Card,SAP BP: BW Extraction Credit Cards,SAP BP: BW Extraction Credit Cards
+0IND_SECTOR_HIER,D,HIER,0CA_BP-IO,,,F1,BUEXT_IS_HIERARCHY_TRANSFER,ROHIEROS,SAP,28.08.2002,09:07:08,BP: Industries,BP: Industries of Business Partner,BP: Industries of Business Partner
+0BP_CAT_TEXT,D,TEXT,0CA_BP-IO,,,D,BU_TYPE,ROTEXTSTR1,SAP,26.11.2002,08:45:55,Texts for BP Categ.,SAP BP: Texts for BP Category,SAP BP: Extraction of Texts for BP Category
+0BP_CONTACT_TEXT,D,TEXT,0CA_BP-IO,,,D,BU_CONTACT,ROTEXTSTR1,SAP,25.11.2002,14:33:05,BP: Contact Permiss.,BP: Contact Permission,BP: Contact Permission
+0FS_BP_TAXC,D,ATTR,0FS_BP,AIMD,,V,BPTAXC,VBPTAXC,SAP,27.09.2012,15:27:16,BP: Tax Compliance,BP: Tax Compliance,Business Partner: Tax Compliance
+0BPM_WIHEAD,D,TRAN,0BPM,AIE,,F2,BPM_WIHEAD_EXTRACTOR,BPM_WIHEAD,SAP,10.04.2014,17:41:48,Workitems,Workitems,Workitems
+0BPM_PROCCAT_TEXT,D,TEXT,0BPM-IO,,,D,BPM_PROCCAT,ROTEXTSTR1,SAP,18.02.2005,13:53:04,BPM Process Category,BPM Process Category,BPM Process Category
+0BPM_OBJREL,D,TRAN,0BPM,AIE,,F2,BPM_OBJREL_EXTRACTOR,BPM_OBJREL,SAP,10.04.2014,17:53:30,WI Object Relation,Work item to Object Relation Data,Work item to Object Relation Data
+0BPM_LOGHIST,D,TRAN,0BPM,AIE,,F2,BPM_LOGHIST_EXTRACTOR,BPM_LOGHIST,SAP,10.04.2014,17:43:12,Workitem History,Workitem History Data,Workitem History Data
+0BPM_LHACTION_TEXT,D,TEXT,0BPM-IO,,,D,BPM_LHACTION,ROTEXTSTR1,SAP,18.02.2005,11:01:45,Actions in LOGHIST,Actions in LOGHIST,Actions in LOGHIST
+0BPM_DEADLINES,D,TRAN,0BPM,AIE,,F2,BPM_DEADLINES_EXTRACTOR,BPM_DEADLINES,SAP,10.04.2014,17:32:12,Deadline Data,BPM Extractor Deadline Data for Work Itm,BPM Extractor: Deadline Data for Work Items
+0BPM_ALERT_DATA,D,TRAN,0BPM,AIE,,F2,BPM_ALERT_DATA_EXTRACTOR,BPM_ALERT_DATA,SAP,10.04.2014,17:16:49,Alert data,Alert data,Alert data
+0FS_BP_REP_DATA,D,ATTR,0FS_BP,AIM,,V,BP1030,BP1030,SAP,11.01.2011,14:22:14,Reg. Reporting Data,BP: Business Partner - Reporting Data,BP: Business Partner - Reporting Data
+0FS_BP_RATING,D,ATTR,0FS_BP,AIMD,,V,BP1012,VBP1012,SAP,11.01.2011,14:22:11,Ratings,Ratings,Ratings
+0FS_BP_FISC_YEAR,D,ATTR,0FS_BP,AIMD,,V,BP021,VBP021,SAP,11.01.2011,14:22:09,Fiscal Year Info.,Fiscal Year Information,Fiscal Year Information
+0FS_BP_EMPL_DATA,D,ATTR,0FS_BP,AIMD,,V,BP011,VBP011,SAP,11.01.2011,14:22:06,Employment Data,Employment Data,Employment Data
+0FS_BP_TREASURY_ATTR,D,ATTR,0FS_BP,AIM,,V,BP001,BP001,SAP,11.01.2011,14:22:17,BP: Treasury Data,Business Partner: Treasury Data,Business Partner: Treasury Data
+0FS_BP_TENDENCY_TEXT,D,TEXT,0FS_BP,,,D,BP_TENDENCY,ROTEXTSTR1,SAP,11.01.2011,14:22:15,Tendency,Tendency,Tendency
+0FS_BP_RISK_GROUP_TEXT,D,TEXT,0FS_BP,,,D,BP_RISK_GROUP,ROTEXTSTR1,SAP,11.01.2011,14:22:14,Risk Group,Risk Group,Risk Group
+0FS_BP_ENTITY_REPORT_TEXT,D,TEXT,0FS_BP,,,D,BP_ENTITY_REPORT,ROTEXTSTR1,SAP,11.01.2011,14:22:07,Legal Entity,Legal Entity,Legal Entity
+0FS_BP_ENTITY_QUOTA_TEXT,D,TEXT,0FS_BP,,,D,BP_ENTITY_QUOTA,ROTEXTSTR1,SAP,11.01.2011,14:22:07,Par.3/2 Asset Reg.,Par.3/2 Asset Reg.,Par.3/2 Asset Reg.
+0FS_BP_DEBTOR_GROUP_TEXT,D,TEXT,0FS_BP,,,D,BP_DEBTOR_GROUP,ROTEXTSTR1,SAP,11.01.2011,14:22:05,Debtor Group,Debtor Group,Debtor Group
+0FS_BP_COMP_RE_TEXT,D,TEXT,0FS_BP,,,D,BP_COMP_RE,ROTEXTSTR1,SAP,11.01.2011,14:22:04,Relationship,Organization Relationship,Organization Relationship
+0FS_BP_BAL_FLG_TEXT,D,TEXT,0FS_BP,,,D,BP_BAL_FLG,ROTEXTSTR1,SAP,11.01.2011,14:22:02,Bal.Sheet Disp.,Bal.Sheet Disp.,Balance Sheet Display
+0BANKKEY_TEXT,D,TEXT,0CA_BP-IO,A,,V,BNKA,BUS_BNKA_BW,SAP,25.11.2002,13:13:02,Bank Key,Bank Key,Bank Key
+0FS_BP_ALIAS_NAME,D,ATTR,0FS_BP,AIMD,,V,BKK21,VBKK21,SAP,11.01.2011,14:22:02,Aliases,Business Partner Aliases,Business Partner Aliases
+0CAM_STREETCODE_TEXT,D,TEXT,0CA_BP-IO,,,V,ADRSTREETT,ADRSTREETT,SAP,28.08.2002,14:38:42,BAS: Street Codes,BAS: Street Codes,Business Address Services: Street Codes
+0CAM_CITYCODE_TEXT,D,TEXT,0CA_BP-IO,,,V,ADRCITYT,ADRCITYT,SAP,28.08.2002,14:38:16,BAS: City Codes,BAS: City Codes,Business Address Services: City Codes
+0CAM_CITYPCODE_TEXT,D,TEXT,0CA_BP-IO,,,V,ADRCITYPRT,ADRCITYPRT,SAP,28.08.2002,14:38:28,BAS: Districts,BAS: Districts,Business Address Services: City Codes (Districts)
+0RF_SSMATT3_TEXT,D,TEXT,IS-R-IO,,,V,/MAP/V_SSMA3DB,ROXB520114,SAP,20.10.2003,23:23:49,Flexible Charact. 3,Flexible Characteristic 3,Flexible Characteristic 3 for a Markdown Profile
+0RF_SSMATT2_TEXT,D,TEXT,IS-R-IO,,,V,/MAP/V_SSMA2DB,ROXB520112,SAP,20.10.2003,23:21:37,Flexible Charact. 2,Flexible Characteristic 2,Flexible Characteristic 2 for a Markdown Profile
+0RF_SSMATT1_TEXT,D,TEXT,IS-R-IO,,,V,/MAP/V_SSMA1DB,ROXB520113,SAP,20.10.2003,23:22:40,Flexibe Charact. 1,Flexible Characteristic 1,Flexible Characteristic 1 for a Markdown Profile
+0RT_SSMRPER_TEXT,D,TEXT,IS-R-IO,,,D,/MAP/DO_SSMRPER,ROTEXTSTR1,SAP,27.05.2003,17:06:11,Flag Rel. Periods,Flag Relative Periods,Flag Relative Periods
+0RF_FIX_DIM_TEXT,D,TEXT,IS-R-IO,,,D,/MAP/DO_FIXDIM,ROTEXTSTR1,SAP,12.04.2010,12:05:41,Fixture Capacity Dim,Fixture Capacity Dimension,Fixture Capacity Dimension
+8NPAEMPLYET,A,TEXT,DM-IO,,,V,/BIC/TNPAEMPLYE,/BIC/CE8NPAEMPLYET,BEST,16.05.2025,03:34:33,Employee,Employee,Employee
+ZJ_STORE,A,TRAN,0BW_DATASOURCES,AIE,,V,/BIC/AZG_STORE2,ZOXA4H0142,BEST,07.07.2025,15:59:08,Store Data,Store Data,Store Data
+ZJ_STORE1,A,TRAN,NEW_HIER_ROOT,AIE,,V,/BIC/AZG_STORE2,ZOXA4H0119,BEST,28.03.2025,23:21:46,Store Data New,Store Data New,Store Data New
+ZJ_STOREC,A,TRAN,NEW_HIER_ROOT,,,V,/BIC/AZG_STORE2,ZOXA4H0117,BEST,27.03.2025,17:00:04,store copy data,store copy data,store copy data
+80RT_SEAROLLT,A,TEXT,DM-IO,,,V,/BI0/TRT_SEAROLL,/BIC/CE80RT_SEAROLLT,BEST,05.02.2025,05:17:11,Collection,Collection,Collection
+80PLANTT,A,TEXT,DM-IO,,,V,/BI0/TPLANT,/BIC/CE80PLANTT,BEST,05.02.2025,05:16:03,Plant,Plant,Plant
+80PERSONT,A,TEXT,DM-IO,,,V,/BI0/TPERSON,/BIC/CE80PERSONT,BEST,05.02.2025,05:15:56,Person,Person,Person
+80JOBT,A,TEXT,DM-IO,,,V,/BI0/TJOB,/BIC/CE80JOBT,BEST,05.02.2025,05:15:22,Job,Job,Job
+80HRPOSITIONT,A,TEXT,DM-IO,,,V,/BI0/THRPOSITION,/BIC/CE80HRPOSITIONT,BEST,05.02.2025,05:15:14,Position,Position,Position
+80EMPLOYEET,A,TEXT,DM-IO,,,V,/BI0/TEMPLOYEE,/BIC/CE80EMPLOYEET,BEST,05.09.2025,04:11:22,Employee,Employee,Employee
+80BPARTNERT,A,TEXT,DM-IO,,,V,/BI0/TBPARTNER,/BIC/CE80BPARTNERT,BEST,05.02.2025,05:13:20,Business Partner,Business Partner,Business Partner
+ZMAT,A,ATTR,NEW_HIER_ROOT,,,V,/BI0/PCALYEAR,ZOXA4H0107,BEST,20.01.2025,22:12:39,Sample,Sample,Sample
+0RF_ARTHIER_ACT,D,ATTR,0RT_FS-IO,NEWE,,V,/BI0/ARF_DS0100,/BI0/ARF_DS0100,SAP,16.10.2014,08:40:23,Article Hierarchy,Current Article Hierarchy,Current Article Hierarchy
